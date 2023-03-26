@@ -254,7 +254,7 @@ footer .socialmedia img {
   }
   body .declaracion {
     font-family: "Kaushan Script", cursive;
-    font-size: 1.1em;
+    font-size: 0.7em;
   }
   body .container2row .row {
     flex-direction: column-reverse;
@@ -342,6 +342,7 @@ footer .socialmedia img {
   footer .socialmedia p {
     flex-direction: column;
     justify-content: center;
+    font-size: 0.7em;
   }
   footer .socialmedia p a {
     flex-direction: column;
@@ -349,7 +350,7 @@ footer .socialmedia img {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   header .btncampeones {
     font-size: 1.1em;
     font-family: "Kaushan Script", cursive;
@@ -361,7 +362,7 @@ footer .socialmedia img {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   body .container1row .row {
     flex-direction: column-reverse;
   }

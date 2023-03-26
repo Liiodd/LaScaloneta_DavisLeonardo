@@ -9,7 +9,7 @@ $fontnavbar: 'Anton', sans-serif;
 
 header {
     @if $vista == tablet {
-        @media only screen and (max-width: 1300px) {
+        @media only screen and (min-width: 768px) and (max-width: 1200px) {
             .btncampeones {
                 font-size: $fontsizenormaltablet;
                 font-family: $fontcursiva;
@@ -30,7 +30,7 @@ header {
 
 body {
     @if $vista == tablet {
-        @media only screen and (max-width: 1300px) {
+        @media only screen and (min-width: 768px) and (max-width: 1200px) {
             .container1row {
                 .row {
                     flex-direction: column-reverse;

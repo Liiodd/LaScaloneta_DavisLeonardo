@@ -59,7 +59,7 @@ body {
 
             .declaracion {
                 font-family: $fontcursiva;
-                font-size: $fontsizeintermmobile;
+                font-size: $fontsizenormalmobile;
             }
 
             .container2row {
@@ -176,6 +176,7 @@ footer {
                 p {
                     flex-direction: column;
                     justify-content: center;
+                    font-size: $fontsizenormalmobile;
 
                     a {
                         flex-direction: column;
