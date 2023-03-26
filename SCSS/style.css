@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Dosis:wght@200;300&family=Kaushan+Script&family=Luckiest+Guy&family=Mynerve&family=Pacifico&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: antiquewhite;
+}
+header .btncampeones {
+  font-size: 2vw;
+  font-family: "Kaushan Script", cursive;
+  background-color: #ffc34a;
+  color: black;
+  justify-content: center;
+  display: flex;
+}
+header .container-fluid {
+  background-image: url(../images/veryperi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+header .container-fluid .scaloneta {
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  padding: 30px 0 0 0;
+}
+header .nav-item a {
+  font-size: 1.5vw;
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+header .nav-item:hover {
+  background-color: skyblue;
+  filter: brightness(150%);
+  color: black;
+}
+
+main {
+  background-color: antiquewhite;
+}
+main .container1row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+main .container1row .row .col-12 {
+  display: flex;
+  justify-content: center;
+}
+main .container1row .row .col-12 p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-family: "Kaushan Script", cursive;
+}
+main .declaracion {
+  font-size: 1.5vw;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background-color: #7FF56D;
+  width: 45vw;
+  font-family: "Kaushan Script", cursive;
+}/*# sourceMappingURL=style.css.map */
