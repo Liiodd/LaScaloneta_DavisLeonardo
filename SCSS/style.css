@@ -101,6 +101,81 @@ body .container2row .row .col-3 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
+body .container3row {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  flex-direction: row;
+}
+body .container3row .row {
+  border: 2px solid #ffc34a;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+body .container3row .row .col-3 {
+  display: flex;
+  text-align: left;
+}
+body .container3row .row .col-3 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+body .container3row .row .col-9 {
+  display: flex;
+  align-items: right;
+}
+body .container4row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container4row .row {
+  border: 2px solid #ffc34a;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+body .container4row .row .col-8 {
+  display: flex;
+  align-items: left;
+}
+body .container4row .row .col-4 {
+  display: flex;
+  text-align: right;
+}
+body .container4row .row .col-4 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+body .container4row .container5row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container4row .container5row .row {
+  border: 2px solid #ffc34a;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+body .container4row .container5row .row .col-9 {
+  display: flex;
+  align-items: left;
+}
+body .container4row .container5row .row .col-3 {
+  display: flex;
+  text-align: right;
+}
+body .container4row .container5row .row .col-3 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
 
 @media only screen and (max-width: 767px) {
   header .btncampeones {

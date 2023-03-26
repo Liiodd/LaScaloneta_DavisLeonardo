@@ -10,7 +10,7 @@
 main {
   background-color: antiquewhite;
 }
-.btncampeones {
+header .btncampeones {
   font-size: 2vw;
   font-family: 'Kaushan Script', cursive;
   background-color: #ffc34a;

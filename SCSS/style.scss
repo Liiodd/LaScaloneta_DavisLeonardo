@@ -61,32 +61,33 @@ body {
         margin-bottom: .5em;
 
         .row {
-        border: 2px solid #ffc34a;
-        margin: 2px 2px 2px 3px;
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
+            border: 2px solid #ffc34a;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
 
 
 
-        .col-9 {
-            display: flex;
-            align-items: right;
+            .col-9 {
+                display: flex;
+                align-items: right;
 
-        }
-        .col-3 {
-           display: flex;
-            text-align: left;
-            
-            
-
-            p {
-                font-size: $fontsizenormal;
-                font-family: $fontparrafo;
-                
             }
 
+            .col-3 {
+                display: flex;
+                text-align: left;
+
+
+
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+
+                }
+
+            }
         }
-    }
 
     }
 
@@ -110,38 +111,140 @@ body {
         margin-left: .5em;
         margin-right: .5em;
         margin-bottom: .5em;
+
         .row {
             border: 2px solid #ffc34a;
             margin: 2px 2px 2px 3px;
             padding-top: 0.6em;
             padding-bottom: 0.6em;
 
-        .col-9 {
-            display: flex;
-            align-items: left;
+            .col-9 {
+                display: flex;
+                align-items: left;
 
+            }
+
+            .col-3 {
+                display: flex;
+                text-align: right;
+
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                }
+
+            }
         }
 
-        .col-3 {
-            display: flex;
-            text-align: right;
+    }
 
-            p {
-                font-size: $fontsizenormal;
-                font-family: $fontparrafo;
+    .container3row {
+        margin-top: .5em;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+        flex-direction: row;
+
+        .row {
+            border: 2px solid #ffc34a;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+
+            .col-3 {
+                display: flex;
+                text-align: left;
+
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                }
+
+            }
+
+            .col-9 {
+                display: flex;
+                align-items: right;
+
+
             }
 
         }
+
     }
+
+    .container4row {
+        margin-top: .5em;
+        justify-content: center;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+
+        .row {
+            border: 2px solid #ffc34a;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+
+            .col-8 {
+                display: flex;
+                align-items: left;
+
+            }
+
+            .col-4 {
+                display: flex;
+                text-align: right;
+
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                }
+
+            }
+        }
+
+        .container5row {
+            margin-top: .5em;
+            justify-content: center;
+            margin-left: .5em;
+            margin-right: .5em;
+            margin-bottom: .5em;
+
+            .row {
+                border: 2px solid #ffc34a;
+                margin: 2px 2px 2px 3px;
+                padding-top: 0.6em;
+                padding-bottom: 0.6em;
+
+                .col-3 {
+                    display: flex;
+                    text-align: right;
+
+                    p {
+                        font-size: $fontsizenormal;
+                        font-family: $fontparrafo;
+                    }
+
+                }
+                .col-9 {
+                    display: flex;
+                    align-items: left;
+
+                }
+
+        
+            }
+
+        }
+
+
+
+
+
+
+
+
+
     }
-
-
-
-
-
-
-
-
-}
-
 @import 'utilities/conditionals';
