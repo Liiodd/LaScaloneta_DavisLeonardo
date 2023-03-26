@@ -5,7 +5,7 @@
 }
 
 header .btncampeones {
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-family: "Kaushan Script", cursive;
   background-color: #ffc34a;
   color: black;
@@ -27,7 +27,7 @@ header .container-fluid .scaloneta {
   padding: 30px 0 0 0;
 }
 header .nav-item a {
-  font-size: 1.1em;
+  font-size: 1.3em;
   color: white;
   font-family: "Anton", sans-serif;
 }
@@ -38,9 +38,6 @@ header .nav-item:hover {
   transition: 1.5s;
 }
 
-body {
-  background-color: antiquewhite;
-}
 body .container1row {
   margin-top: 0.5em;
   justify-content: center;
@@ -48,17 +45,23 @@ body .container1row {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
-body .container1row .row .col-12 {
-  display: flex;
-  justify-content: center;
+body .container1row .row {
+  border: 2px solid #ffc34a;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
 }
-body .container1row .row .col-12 p {
-  text-align: center;
+body .container1row .row .col-9 {
   display: flex;
-  justify-content: center;
-  font-size: 1.5vw;
+  align-items: right;
+}
+body .container1row .row .col-3 {
+  display: flex;
+  text-align: left;
+}
+body .container1row .row .col-3 p {
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
-  font-size: 1.1em;
 }
 body .declaracion {
   font-size: 1.5em;
@@ -69,6 +72,89 @@ body .declaracion {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   background-color: #7FF56D;
-  width: 55vw;
+  width: 90vw;
   font-family: "Kaushan Script", cursive;
+  border-radius: 0 4.3em 0 4.3em;
+}
+body .container2row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container2row .row {
+  border: 2px solid #ffc34a;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+body .container2row .row .col-9 {
+  display: flex;
+  align-items: left;
+}
+body .container2row .row .col-3 {
+  display: flex;
+  text-align: right;
+}
+body .container2row .row .col-3 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  header .btncampeones {
+    font-size: 1.1em;
+    font-family: "Kaushan Script", cursive;
+  }
+  header .nav-item a {
+    font-size: 1.1em;
+    color: white;
+    font-family: "Anton", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body .container1row .row {
+    flex-direction: column-reverse;
+  }
+  body .container1row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container1row .row .col-3 p {
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
+  }
+  body .container1row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .declaracion {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.1em;
+  }
+  body .container2row .row {
+    flex-direction: column-reverse;
+  }
+  body .container2row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container2row .row .col-3 p {
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
+  }
+  body .container2row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,116 @@
+$vista: mobile;
+$fontsizenormal: 1.3em;
+$fontsizeinterm: 1.5em;
+$fontsizenormalmobile: 0.7em;
+$fontsizeintermmobile: 1.1em;
+$fontparrafo: 'Dosis', sans-serif;
+$fontcursiva: 'Kaushan Script', cursive;
+$fontscaloneta: 'Luckiest Guy', cursive;
+$fontnavbar: 'Anton', sans-serif;
+
+
+header {
+    @if $vista == mobile {
+        @media only screen and (max-width: 767px) {
+            .btncampeones {
+                font-size: $fontsizeintermmobile;
+                font-family: $fontcursiva;
+            }
+
+            .nav-item {
+                a {
+                    font-size: $fontsizeintermmobile;
+                    color: white;
+                    font-family: $fontnavbar;
+                }
+
+            }
+        }
+    }
+
+}
+
+body {
+    @if $vista == mobile {
+        @media only screen and (max-width: 767px) {
+            .container1row {
+                .row {
+                    flex-direction: column-reverse;
+                    .col-3 {
+                     display: flex;
+                     align-items: center;
+                     width: 750px;
+                     margin: auto;
+                        p {
+                            text-align: center;
+                            font-size: $fontsizenormalmobile;
+                            font-family: $fontsizenormalmobile;
+                            
+                        }
+                    }
+                    .col-9{
+                        justify-content: center;
+                        max-width: 100%; width: auto;
+                    }
+                }
+            }
+
+            .declaracion {
+                font-family: $fontcursiva;
+                font-size: $fontsizeintermmobile;
+            }
+
+            .container2row {
+                .row {
+                    flex-direction: column-reverse;
+                    .col-3 {
+                     display: flex;
+                     align-items: center;
+                     width: 750px;
+                     margin: auto;
+                        p {
+                            text-align: center;
+                            font-size: $fontsizenormalmobile;
+                            font-family: $fontsizenormalmobile;
+                            
+                        }
+                    }
+                    .col-9{
+                        justify-content: center;
+                        max-width: 100%; width: auto;
+                    }
+                }
+            }
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+       

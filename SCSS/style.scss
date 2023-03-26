@@ -1,6 +1,6 @@
 @import 'utilities/fonts';
 @import 'utilities/variables';
-@import 'utilities/conditionals';
+
 
 
 * {
@@ -11,7 +11,7 @@
 
 header {
     .btncampeones {
-        font-size: $fontsizenormal;
+        font-size: $fontsizeinterm;
         font-family: $fontcursiva;
         background-color: #ffc34a;
         color: black;
@@ -52,33 +52,42 @@ header {
 }
 
 body {
-    background-color: antiquewhite;
 
     .container1row {
-            margin-top: .5em;
-            justify-content: center;
-            margin-left: .5em;
-            margin-right: .5em;
-            margin-bottom: .5em;
-            
-    
-            .row {
-                .col-12 {
-                    
-                    display: flex;
-                    justify-content: center;
-    
-                    p {
-                        text-align: center;
-                        display: flex;
-                        justify-content: center;
-                        font-size: 1.5vw;
-                        font-family: $fontparrafo;
-                        font-size: $fontsizenormal;
-                    }
-            }
+        margin-top: .5em;
+        justify-content: center;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+
+        .row {
+        border: 2px solid #ffc34a;
+        margin: 2px 2px 2px 3px;
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+
+
+
+        .col-9 {
+            display: flex;
+            align-items: right;
+
         }
-       
+        .col-3 {
+           display: flex;
+            text-align: left;
+            
+            
+
+            p {
+                font-size: $fontsizenormal;
+                font-family: $fontparrafo;
+                
+            }
+
+        }
+    }
+
     }
 
     .declaracion {
@@ -90,8 +99,40 @@ body {
         margin-top: .5em;
         margin-bottom: .5em;
         background-color: #7FF56D;
-        width: 55vw;
+        width: 90vw;
         font-family: $fontcursiva;
+        border-radius: 0 4.3em 0 4.3em;
+    }
+
+    .container2row {
+        margin-top: .5em;
+        justify-content: center;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+        .row {
+            border: 2px solid #ffc34a;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+
+        .col-9 {
+            display: flex;
+            align-items: left;
+
+        }
+
+        .col-3 {
+            display: flex;
+            text-align: right;
+
+            p {
+                font-size: $fontsizenormal;
+                font-family: $fontparrafo;
+            }
+
+        }
+    }
     }
 
 
@@ -101,11 +142,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 }
+
+@import 'utilities/conditionals';
