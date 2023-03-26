@@ -27,17 +27,22 @@ header .container-fluid .scaloneta {
   padding: 30px 0 0 0;
 }
 header .nav-item a {
-  font-size: 1.3em;
+  font-size: 1.4em;
   color: white;
   font-family: "Anton", sans-serif;
 }
 header .nav-item:hover {
   background-color: skyblue;
   filter: brightness(150%);
-  color: black;
   transition: 1.5s;
 }
+header .nav-item:hover a {
+  color: black;
+}
 
+body {
+  background: linear-gradient(180deg, rgb(199, 232, 225) 20%, rgb(34, 162, 156) 76%);
+}
 body .container1row {
   margin-top: 0.5em;
   justify-content: center;
@@ -54,13 +59,19 @@ body .container1row .row {
 body .container1row .row .col-9 {
   display: flex;
   align-items: right;
+  justify-content: right;
+}
+body .container1row .row .col-9 img {
+  border-radius: 0 4em 0 4em;
+  max-width: 100%;
+  width: auto;
 }
 body .container1row .row .col-3 {
   display: flex;
   text-align: left;
 }
 body .container1row .row .col-3 p {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "Dosis", sans-serif;
 }
 body .declaracion {
@@ -71,7 +82,7 @@ body .declaracion {
   margin: auto;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  background-color: #7FF56D;
+  background: linear-gradient(90deg, rgb(224, 244, 21) 20%, rgb(127, 245, 109) 56%);
   width: 90vw;
   font-family: "Kaushan Script", cursive;
   border-radius: 0 4.3em 0 4.3em;
@@ -93,12 +104,17 @@ body .container2row .row .col-9 {
   display: flex;
   align-items: left;
 }
+body .container2row .row .col-9 img {
+  border-radius: 4em 0 4em 0;
+  max-width: 100%;
+  width: auto;
+}
 body .container2row .row .col-3 {
   display: flex;
   text-align: right;
 }
 body .container2row .row .col-3 p {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "Dosis", sans-serif;
 }
 body .container3row {
@@ -119,12 +135,18 @@ body .container3row .row .col-3 {
   text-align: left;
 }
 body .container3row .row .col-3 p {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "Dosis", sans-serif;
 }
 body .container3row .row .col-9 {
   display: flex;
   align-items: right;
+  justify-content: right;
+}
+body .container3row .row .col-9 img {
+  border-radius: 0 4em 0 4em;
+  max-width: 100%;
+  width: auto;
 }
 body .container4row {
   margin-top: 0.5em;
@@ -143,47 +165,68 @@ body .container4row .row .col-8 {
   display: flex;
   align-items: left;
 }
+body .container4row .row .col-8 img {
+  border-radius: 4em 0 4em 0;
+  max-width: 100%;
+  width: auto;
+}
 body .container4row .row .col-4 {
   display: flex;
   text-align: right;
 }
 body .container4row .row .col-4 p {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "Dosis", sans-serif;
 }
-body .container4row .container5row {
+body .container5row {
   margin-top: 0.5em;
   justify-content: center;
   margin-left: 0.5em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
-body .container4row .container5row .row {
+body .container5row .row {
   border: 2px solid #ffc34a;
   margin: 2px 2px 2px 3px;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
+  flex-direction: row;
 }
-body .container4row .container5row .row .col-9 {
+body .container5row .row .col-3 {
   display: flex;
-  align-items: left;
+  text-align: left;
 }
-body .container4row .container5row .row .col-3 {
-  display: flex;
-  text-align: right;
-}
-body .container4row .container5row .row .col-3 p {
-  font-size: 1.3em;
+body .container5row .row .col-3 p {
+  font-size: 1.4em;
   font-family: "Dosis", sans-serif;
+}
+body .container5row .row .col-9 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+body .container5row .row .col-9 img {
+  border-radius: 0 4em 0 4em;
+  justify-content: right;
+}
+
+footer {
+  background-color: rgb(34, 162, 156);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+footer .socialmedia img {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
   header .btncampeones {
-    font-size: 1.1em;
+    font-size: 0.7em;
     font-family: "Kaushan Script", cursive;
   }
   header .nav-item a {
-    font-size: 1.1em;
+    font-size: 0.7em;
     color: white;
     font-family: "Anton", sans-serif;
   }
@@ -228,6 +271,192 @@ body .container4row .container5row .row .col-3 p {
     font-family: 0.7em;
   }
   body .container2row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .container3row .row {
+    flex-direction: column-reverse;
+  }
+  body .container3row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container3row .row .col-3 p {
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
+  }
+  body .container3row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .container4row .row {
+    flex-direction: column-reverse;
+  }
+  body .container4row .row .col-4 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container4row .row .col-4 p {
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
+  }
+  body .container4row .row .col-8 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .container5row .row {
+    flex-direction: column-reverse;
+  }
+  body .container5row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container5row .row .col-3 p {
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
+  }
+  body .container5row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  footer .socialmedia {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .socialmedia p {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .socialmedia p a {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  header .btncampeones {
+    font-size: 1.1em;
+    font-family: "Kaushan Script", cursive;
+  }
+  header .nav-item a {
+    font-size: 1.1em;
+    color: white;
+    font-family: "Anton", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  body .container1row .row {
+    flex-direction: column-reverse;
+  }
+  body .container1row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+  }
+  body .container1row .row .col-3 p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 0.7em;
+  }
+  body .container1row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .declaracion {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.1em;
+  }
+  body .container2row .row {
+    flex-direction: column-reverse;
+  }
+  body .container2row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+  }
+  body .container2row .row .col-3 p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 0.7em;
+  }
+  body .container2row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .container3row .row {
+    flex-direction: column-reverse;
+  }
+  body .container3row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+  }
+  body .container3row .row .col-3 p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 0.7em;
+  }
+  body .container3row .row .col-9 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .container4row .row {
+    flex-direction: column-reverse;
+  }
+  body .container4row .row .col-4 {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+  }
+  body .container4row .row .col-4 p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 0.7em;
+  }
+  body .container4row .row .col-8 {
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  body .container5row .row {
+    flex-direction: column-reverse;
+  }
+  body .container5row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+  }
+  body .container5row .row .col-3 p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 0.7em;
+  }
+  body .container5row .row .col-9 {
     justify-content: center;
     max-width: 100%;
     width: auto;

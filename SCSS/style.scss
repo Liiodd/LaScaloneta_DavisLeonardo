@@ -32,7 +32,10 @@ header {
             max-width: 100%;
             height: auto;
             padding: 30px 0 0 0;
+
         }
+
+
     }
 
     .nav-item {
@@ -45,13 +48,17 @@ header {
         &:hover {
             background-color: skyblue;
             filter: brightness(150%);
-            color: black;
             transition: 1.5s;
+
+            a {
+                color: black;
+            }
         }
     }
 }
 
 body {
+    background: linear-gradient(180deg, rgba(199, 232, 225, 1) 20%, rgba(34, 162, 156, 1) 76%);
 
     .container1row {
         margin-top: .5em;
@@ -71,6 +78,14 @@ body {
             .col-9 {
                 display: flex;
                 align-items: right;
+                justify-content: right;
+
+                img {
+                    border-radius: $borderfotosder;
+                    max-width: 100%;
+                        width: auto;
+
+                }
 
             }
 
@@ -99,7 +114,7 @@ body {
         margin: auto;
         margin-top: .5em;
         margin-bottom: .5em;
-        background-color: #7FF56D;
+        background: linear-gradient(90deg, rgba(224, 244, 21, 1) 20%, rgba(127, 245, 109, 1) 56%);
         width: 90vw;
         font-family: $fontcursiva;
         border-radius: 0 4.3em 0 4.3em;
@@ -121,6 +136,12 @@ body {
             .col-9 {
                 display: flex;
                 align-items: left;
+
+                img {
+                    border-radius: $borderfotosizq;
+                    max-width: 100%;
+                        width: auto;
+                }
 
             }
 
@@ -165,6 +186,14 @@ body {
             .col-9 {
                 display: flex;
                 align-items: right;
+                justify-content: right;
+
+                img {
+                    border-radius: $borderfotosder;
+                    max-width: 100%;
+                        width: auto;
+
+                }
 
 
             }
@@ -190,6 +219,12 @@ body {
                 display: flex;
                 align-items: left;
 
+                img {
+                    border-radius: $borderfotosizq;
+                    max-width: 100%;
+                        width: auto;
+                }
+
             }
 
             .col-4 {
@@ -204,40 +239,6 @@ body {
             }
         }
 
-        .container5row {
-            margin-top: .5em;
-            justify-content: center;
-            margin-left: .5em;
-            margin-right: .5em;
-            margin-bottom: .5em;
-
-            .row {
-                border: 2px solid #ffc34a;
-                margin: 2px 2px 2px 3px;
-                padding-top: 0.6em;
-                padding-bottom: 0.6em;
-
-                .col-3 {
-                    display: flex;
-                    text-align: right;
-
-                    p {
-                        font-size: $fontsizenormal;
-                        font-family: $fontparrafo;
-                    }
-
-                }
-                .col-9 {
-                    display: flex;
-                    align-items: left;
-
-                }
-
-        
-            }
-
-        }
-
 
 
 
@@ -247,4 +248,79 @@ body {
 
 
     }
+
+    .container5row {
+        margin-top: .5em;
+        justify-content: center;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+
+        .row {
+            border: 2px solid #ffc34a;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+            flex-direction: row;
+
+            .col-3 {
+                display: flex;
+                text-align: left;
+              
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                   
+                }
+
+            }
+
+            .col-9 {
+                display: flex;
+                align-items: right;
+                justify-content: right;
+               
+
+                img {
+                    border-radius: $borderfotosder;
+                    justify-content: right;
+                   
+
+                }
+
+
+            }
+
+          
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+}
+
+footer {
+    background-color: rgba(34, 162, 156, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    .socialmedia {
+        a {}
+
+        img {
+            cursor: pointer;
+
+        }
+    }
+}
+
 @import 'utilities/conditionals';
+@import 'utilities/conditionalstablet';

@@ -1,6 +1,6 @@
-$vista: mobile;
-$fontsizenormalmobile: 0.7em;
-$fontsizeintermmobile: 1.1em;
+$vista: tablet;
+$fontsizenormaltablet: 1.1em;
+$fontsizeintermtablet: 1.3em;
 $fontparrafo: 'Dosis', sans-serif;
 $fontcursiva: 'Kaushan Script', cursive;
 $fontscaloneta: 'Luckiest Guy', cursive;
@@ -8,16 +8,16 @@ $fontnavbar: 'Anton', sans-serif;
 
 
 header {
-    @if $vista ==mobile {
-        @media only screen and (max-width: 767px) {
+    @if $vista == tablet {
+        @media only screen and (max-width: 1300px) {
             .btncampeones {
-                font-size: $fontsizenormalmobile;
+                font-size: $fontsizenormaltablet;
                 font-family: $fontcursiva;
             }
 
             .nav-item {
                 a {
-                    font-size: $fontsizenormalmobile;
+                    font-size: $fontsizenormaltablet;
                     color: white;
                     font-family: $fontnavbar;
                 }
@@ -29,111 +29,95 @@ header {
 }
 
 body {
-    @if $vista ==mobile {
-        @media only screen and (max-width: 767px) {
+    @if $vista == tablet {
+        @media only screen and (max-width: 1300px) {
             .container1row {
                 .row {
                     flex-direction: column-reverse;
-
                     .col-3 {
-                        display: flex;
-                        align-items: center;
-                        width: 750px;
-                        margin: auto;
-
+                     display: flex;
+                     align-items: center;
+                     width: 1150px;
+                     margin: auto;
                         p {
                             text-align: center;
-                            font-size: $fontsizenormalmobile;
+                            font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-
+                            
                         }
                     }
-
-                    .col-9 {
+                    .col-9{
                         justify-content: center;
-                        max-width: 100%;
-                        width: auto;
+                        max-width: 100%; width: auto;
                     }
                 }
             }
 
             .declaracion {
                 font-family: $fontcursiva;
-                font-size: $fontsizeintermmobile;
+                font-size: $fontsizenormaltablet;
             }
 
             .container2row {
                 .row {
                     flex-direction: column-reverse;
-
                     .col-3 {
-                        display: flex;
-                        align-items: center;
-                        width: 750px;
-                        margin: auto;
-
+                     display: flex;
+                     align-items: center;
+                     width: 1150px;
+                     margin: auto;
                         p {
                             text-align: center;
-                            font-size: $fontsizenormalmobile;
+                            font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-
+                            
                         }
                     }
-
-                    .col-9 {
+                    .col-9{
                         justify-content: center;
-                        max-width: 100%;
-                        width: auto;
+                        max-width: 100%; width: auto;
                     }
                 }
             }
-
             .container3row {
                 .row {
                     flex-direction: column-reverse;
-
                     .col-3 {
-                        display: flex;
-                        align-items: center;
-                        width: 750px;
-                        margin: auto;
-
+                     display: flex;
+                     align-items: center;
+                     width: 1150px;
+                     margin: auto;
                         p {
                             text-align: center;
-                            font-size: $fontsizenormalmobile;
+                            font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
+                            
                         }
                     }
-
-                    .col-9 {
+                    .col-9{
                         justify-content: center;
-                        max-width: 100%;
-                        width: auto;
+                        max-width: 100%; width: auto;
                     }
                 }
             }
-
             .container4row {
                 .row {
                     flex-direction: column-reverse;
-
                     .col-4 {
-                        display: flex;
-                        align-items: center;
-                        width: 750px;
-                        margin: auto;
-
+                     display: flex;
+                     align-items: center;
+                     width: 1150px;
+                     margin: auto;
                         p {
                             text-align: center;
-                            font-size: $fontsizenormalmobile;
+                            font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
+                            
                         }
                     }
-
-                    .col-8 {
+                    .col-8{
                         justify-content: center;
-                        max-width: 100%;
-                        width: auto;
+                        max-width: 100%; width: auto;
                     }
                 }
             }
@@ -141,48 +125,41 @@ body {
             .container5row {
                 .row {
                     flex-direction: column-reverse;
-
                     .col-3 {
-                        display: flex;
-                        align-items: center;
-                        width: 750px;
-                        margin: auto;
-
+                     display: flex;
+                     align-items: center;
+                     width: 1150px;
+                     margin: auto;
                         p {
                             text-align: center;
-                            font-size: $fontsizenormalmobile;
+                            font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
+                            
                         }
                     }
-
-                    .col-9 {
+                    .col-9{
                         justify-content: center;
-                        max-width: 100%;
-                        width: auto;
+                        max-width: 100%; width: auto;
                     }
                 }
             }
+
+
+
+
+
+
         }
+
+
+
+
+
+
+
+
+
+
     }
-}
 
-footer {
-    @if $vista ==mobile {
-        @media only screen and (max-width: 767px) {
-            .socialmedia {
-                flex-direction: column;
-                justify-content: center;
-
-                p {
-                    flex-direction: column;
-                    justify-content: center;
-
-                    a {
-                        flex-direction: column;
-                        justify-content: center;
-                    }
-                }
-            }
-        }
-    }
 }
