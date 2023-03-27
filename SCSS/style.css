@@ -19,12 +19,27 @@ header .container-fluid {
   width: 100%;
   text-align: center;
   color: white;
+  /* CONTAINER-FLUID "EL CAMINO"*/
 }
 header .container-fluid .scaloneta {
   justify-content: center;
   max-width: 100%;
   height: auto;
   padding: 30px 0 0 0;
+}
+header .container-fluid .encabezado1 p {
+  font-size: 3em;
+  font-family: "Luckiest Guy", cursive;
+}
+header .container-fluid .encabezado1btn {
+  width: 22em;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+  color: black;
+  border-radius: 0 4.5em 0 4.5em;
 }
 header .nav-item a {
   font-size: 1.4em;
@@ -42,6 +57,7 @@ header .nav-item:hover a {
 
 body {
   background: linear-gradient(180deg, rgb(199, 232, 225) 20%, rgb(34, 162, 156) 76%);
+  /* BODY "EL CAMINO"*/
 }
 body .container1row {
   margin-top: 0.5em;
@@ -209,6 +225,52 @@ body .container5row .row .col-9 img {
   border-radius: 0 4em 0 4em;
   justify-content: right;
 }
+body .capitulo {
+  font-size: 1.5em;
+  font-family: "Dosis", sans-serif;
+  margin-top: 30px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+body .nombrecapitulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4em;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: black;
+}
+body .resultado {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.4em;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  background-color: #7FF56D;
+  width: 350px;
+}
+body .texto {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+}
+body .containervid {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+body .containervid iframe {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 footer {
   background-color: rgb(34, 162, 156);
@@ -216,7 +278,7 @@ footer {
   justify-content: center;
   flex-direction: row;
 }
-footer .socialmedia img {
+footer .socialmedia a img {
   cursor: pointer;
 }
 

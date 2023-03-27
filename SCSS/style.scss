@@ -35,7 +35,23 @@ header {
 
         }
 
-
+        /* CONTAINER-FLUID "EL CAMINO"*/
+        .encabezado1 {
+            p{
+            font-size: $fontsizebig;
+            font-family: $fontscaloneta;
+        }        
+                }
+                .encabezado1btn {
+                    width: 22em;
+                    display: inline-flex;
+                    justify-content: center;
+                    font-size: $fontsizeinterm;
+                    font-family: $fontnavbar;
+                    background-color: #ffc34a;
+                    color: black;
+                    border-radius: 0 4.5em 0 4.5em;
+        }
     }
 
     .nav-item {
@@ -262,50 +278,80 @@ body {
             padding-top: 0.6em;
             padding-bottom: 0.6em;
             flex-direction: row;
-
             .col-3 {
                 display: flex;
                 text-align: left;
-              
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
-                   
                 }
-
             }
-
             .col-9 {
                 display: flex;
                 align-items: right;
                 justify-content: right;
-               
-
                 img {
                     border-radius: $borderfotosder;
                     justify-content: right;
-                   
-
                 }
-
-
             }
-
-          
         }
-
-
-
-
-
-
-
-
     }
+/* BODY "EL CAMINO"*/
+.capitulo {
+  font-size: $fontsizeinterm;
+  font-family: $fontparrafo;
+  margin-top: 30px;  
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+.nombrecapitulo{
+    font-family: $fontnavbar;
+    font-size: $fontsizenormal;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: black;
+  }
+  .resultado {
+    font-family: $fontcursiva;
+    font-size: $fontsizenormal;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: #7FF56D;
+    width: 350px;
+  }
+  .texto{
+    font-size: $fontsizenormal;
+    font-family: $fontparrafo;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;  
+    text-align: center;
+    color: black;
+  }
+  .containervid{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   iframe{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+  }
+
+
+
+
 
 
 }
-
 footer {
     background-color: rgba(34, 162, 156, 1);
     display: flex;
@@ -313,12 +359,13 @@ footer {
     flex-direction: row;
 
     .socialmedia {
-        a {}
+        a {
 
         img {
             cursor: pointer;
 
         }
+    }
     }
 }
 
