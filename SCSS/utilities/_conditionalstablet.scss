@@ -23,6 +23,21 @@ header {
                 }
 
             }
+            .container-fluid{
+                .encabezado1 {
+                    p{
+                    font-size: $fontsizebigtablet;
+                    font-family: $fontscaloneta;
+                }
+                }
+                .encabezado1btn{
+                    font-size: $fontsizeintermtablet;
+                    font-family: $fontnavbar;
+                    margin-bottom: 2em;
+                }
+
+
+        }
         }
     }
 
@@ -147,7 +162,20 @@ body {
 
 
 
-
+            .containervid {
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                iframe {
+                    display: inline-flex;
+                    justify-content: center;
+                    margin: 5px 3px;
+                    width: 90%;
+                    border: 1px solid #ffc34a; 
+                  }
+              }
 
         }
 

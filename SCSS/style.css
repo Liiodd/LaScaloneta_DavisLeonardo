@@ -226,7 +226,12 @@ body .container5row .row .col-9 img {
   border-radius: 0 4em 0 4em;
   justify-content: right;
 }
+body .nav-item2 a:hover {
+  background-color: #7FF56D;
+  transition: 1s;
+}
 body .capitulo {
+  background-color: rgb(34, 162, 156);
   font-size: 1.5em;
   font-family: "Dosis", sans-serif;
   margin-top: 30px;
@@ -261,6 +266,32 @@ body .texto {
   margin-top: 10px;
   text-align: center;
   color: black;
+}
+body .containervid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+body .containervid iframe {
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px 5px;
+  width: 32%;
+  border: 2px solid #ffc34a;
+}
+body .palmares {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ffc34a;
+}
+body .palmares .copa {
+  width: 33%;
+  text-align: center;
+}
+body .palmares .copa p {
+  font-family: "Anton", sans-serif;
+  color: #ffc34a;
 }
 
 footer {
@@ -394,18 +425,35 @@ footer .socialmedia a img {
     max-width: 100%;
     width: auto;
   }
-}
-body .containervid {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-body .containervid iframe {
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-  width: auto;
-  height: auto;
+  body .containervid {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  body .containervid iframe {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px 3px;
+    width: 90%;
+    border: 1px solid #ffc34a;
+  }
+  body .palmares {
+    flex-direction: column;
+    border: 2px solid #ffc34a;
+  }
+  body .palmares .copa {
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    text-align: row;
+  }
+  body .palmares .copa p {
+    font-family: "Anton", sans-serif;
+    font-size: 0.7em;
+    color: #ffc34a;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -433,6 +481,15 @@ body .containervid iframe {
     font-size: 1.1em;
     color: white;
     font-family: "Anton", sans-serif;
+  }
+  header .container-fluid .encabezado1 p {
+    font-size: 2em;
+    font-family: "Luckiest Guy", cursive;
+  }
+  header .container-fluid .encabezado1btn {
+    font-size: 1.3em;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 2em;
   }
 }
 
@@ -535,5 +592,19 @@ body .containervid iframe {
     justify-content: center;
     max-width: 100%;
     width: auto;
+  }
+  body .containervid {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  body .containervid iframe {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px 3px;
+    width: 90%;
+    border: 1px solid #ffc34a;
   }
 }/*# sourceMappingURL=style.css.map */

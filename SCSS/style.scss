@@ -299,7 +299,18 @@ body {
         }
     }
 /* BODY "EL CAMINO"*/
+
+.nav-item2{
+    a{
+    &:hover{
+    background-color: #7FF56D;
+    transition: 1s;
+}
+}
+  }
+
 .capitulo {
+    background-color: rgba(34, 162, 156, 1);
   font-size: $fontsizeinterm;
   font-family: $fontparrafo;
   margin-top: 30px;  
@@ -326,6 +337,16 @@ body {
     background-color: #7FF56D;
     width: 350px;
   }
+//   .resultado1 {
+//     font-family: $fontcursiva;
+//     font-size: $fontsizenormal;
+//     font-weight: bold;
+//     justify-content: center;
+//     text-align: center;
+//     margin: auto;
+//     background: linear-gradient(90deg, rgba(224, 244, 21, 1) 20%, rgba(127, 245, 109, 1) 56%);
+//     width: 350px;
+//   }
   .texto{
     font-size: $fontsizenormal;
     font-family: $fontparrafo;
@@ -335,20 +356,54 @@ body {
     text-align: center;
     color: black;
   }
-//   .containervid{
+
+  .containervid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+    iframe {
+        display: inline-flex;
+        justify-content: center;
+        margin: 10px 5px;
+        width: 32%;
+        border: 2px solid #ffc34a; 
+      }
+  }
+// .palmares{
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     width: 90%;
+//   .copa {
 //     flex-direction: column;
 //     justify-content: center;
-//     display: flex;
 //     align-items: center;
-
-//    iframe{
-//     margin-top: 1em;
-//     margin-bottom: 1em;
-//     width: auto;
-//     height: auto;
+//     display: flex;
+//   }
 // }
 
-//   }
+.palmares {
+
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ffc34a;
+    .copa {
+        
+        width: 33%;
+        text-align: center;
+        p{
+            font-family: $fontnavbar;
+            color: #ffc34a;
+        }
+      }
+  }
+  
+  
+  
+
+  
 
 
 
