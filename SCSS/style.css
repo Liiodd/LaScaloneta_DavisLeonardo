@@ -40,6 +40,7 @@ header .container-fluid .encabezado1btn {
   background-color: #ffc34a;
   color: black;
   border-radius: 0 4.5em 0 4.5em;
+  margin-bottom: 1em;
 }
 header .nav-item a {
   font-size: 1.4em;
@@ -261,18 +262,6 @@ body .texto {
   text-align: center;
   color: black;
 }
-body .containervid {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-body .containervid iframe {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  width: auto;
-  height: auto;
-}
 
 footer {
   background-color: rgb(34, 162, 156);
@@ -293,6 +282,15 @@ footer .socialmedia a img {
     font-size: 0.7em;
     color: white;
     font-family: "Anton", sans-serif;
+  }
+  header .container-fluid .encabezado1 p {
+    font-size: 1.5em;
+    font-family: "Luckiest Guy", cursive;
+  }
+  header .container-fluid .encabezado1btn {
+    font-size: 0.7em;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 2em;
   }
 }
 

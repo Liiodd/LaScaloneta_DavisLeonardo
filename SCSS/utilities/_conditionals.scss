@@ -1,6 +1,7 @@
 $vista: mobile;
 $fontsizenormalmobile: 0.7em;
 $fontsizeintermmobile: 1.1em;
+$fontsizebigmmobile: 1.5em;
 $fontparrafo: 'Dosis', sans-serif;
 $fontcursiva: 'Kaushan Script', cursive;
 $fontscaloneta: 'Luckiest Guy', cursive;
@@ -8,7 +9,7 @@ $fontnavbar: 'Anton', sans-serif;
 
 
 header {
-    @if $vista ==mobile {
+    @if $vista == mobile {
         @media only screen and (max-width: 767px) {
             .btncampeones {
                 font-size: $fontsizenormalmobile;
@@ -23,8 +24,24 @@ header {
                 }
 
             }
+            .container-fluid{
+                .encabezado1 {
+                    p{
+                    font-size: $fontsizebigmmobile;
+                    font-family: $fontscaloneta;
+                }
+                }
+                .encabezado1btn{
+                    font-size: $fontsizenormalmobile;
+                    font-family: $fontnavbar;
+                    margin-bottom: 2em;
+                }
+
+
         }
     }
+}
+
 
 }
 
