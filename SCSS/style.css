@@ -395,6 +395,18 @@ footer .socialmedia a img {
     width: auto;
   }
 }
+body .containervid {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+body .containervid iframe {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  width: auto;
+  height: auto;
+}
 
 @media only screen and (max-width: 767px) {
   footer .socialmedia {
