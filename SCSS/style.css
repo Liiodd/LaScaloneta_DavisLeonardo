@@ -300,7 +300,10 @@ footer {
   justify-content: center;
   flex-direction: row;
 }
-footer .socialmedia a img {
+footer .socialmedia P {
+  font-family: "Anton", sans-serif;
+}
+footer .socialmedia P a img {
   cursor: pointer;
 }
 

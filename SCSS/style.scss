@@ -418,6 +418,8 @@ footer {
     flex-direction: row;
 
     .socialmedia {
+        P{
+            font-family: $fontnavbar;
         a {
 
         img {
@@ -426,6 +428,7 @@ footer {
         }
     }
     }
+}
 }
 
 @import 'utilities/conditionals';
