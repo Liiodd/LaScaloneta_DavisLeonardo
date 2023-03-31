@@ -55,6 +55,10 @@ header .nav-item:hover {
 header .nav-item:hover a {
   color: black;
 }
+header .nav-item:hover a h1 {
+  font-size: 1.4em;
+  font-family: "Anton", sans-serif;
+}
 
 body {
   background: linear-gradient(180deg, rgb(199, 232, 225) 20%, rgb(34, 162, 156) 76%);
@@ -83,6 +87,26 @@ body .container1row .row .col-9 img {
   max-width: 100%;
   width: auto;
 }
+body .container1row .row .col-8 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+body .container1row .row .col-8 img {
+  border-radius: 0 4em 0 4em;
+  max-width: 100%;
+  width: auto;
+}
+body .container1row .row .col-7 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+body .container1row .row .col-7 img {
+  border-radius: 0 4em 0 4em;
+  max-width: 100%;
+  width: auto;
+}
 body .container1row .row .col-3 {
   display: flex;
   text-align: left;
@@ -91,8 +115,35 @@ body .container1row .row .col-3 p {
   font-size: 1.4em;
   font-family: "Dosis", sans-serif;
 }
+body .container1row .row .col-3:first-letter {
+  font-size: 200%;
+  color: #993333;
+  font-weight: bold;
+}
+body .container1row .row .col-5 {
+  display: flex;
+  text-align: left;
+}
+body .container1row .row .col-5 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container1row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container1row .row .col-4 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container1row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+}
 body .declaracion {
   font-size: 1.5em;
+  font-family: "Kaushan Script", cursive;
   justify-content: center;
   display: flex;
   text-align: center;
@@ -101,8 +152,19 @@ body .declaracion {
   margin-bottom: 0.5em;
   background: linear-gradient(90deg, rgb(224, 244, 21) 20%, rgb(127, 245, 109) 56%);
   width: 90vw;
-  font-family: "Kaushan Script", cursive;
   border-radius: 0 4.3em 0 4.3em;
+}
+body .decla {
+  font-size: 1.5em;
+  font-family: "Kaushan Script", cursive;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background: linear-gradient(90deg, rgb(216, 246, 218) 1%, rgba(74, 255, 116, 0.5438376034) 61%);
+  width: 60vw;
 }
 body .container2row {
   margin-top: 0.5em;
@@ -126,6 +188,31 @@ body .container2row .row .col-9 img {
   max-width: 100%;
   width: auto;
 }
+body .container2row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container2row .row .col-4 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container2row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container2row .row .col-4 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container2row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container2row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+}
 body .container2row .row .col-3 {
   display: flex;
   text-align: right;
@@ -146,6 +233,31 @@ body .container3row .row {
   margin: 2px 2px 2px 3px;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
+}
+body .container3row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container3row .row .col-4 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container3row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container3row .row .col-4 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container3row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container3row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
 }
 body .container3row .row .col-3 {
   display: flex;
@@ -330,7 +442,19 @@ footer .socialmedia P a img {
 
 @media only screen and (max-width: 767px) {
   body .container1row .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  body .container1row .row .col-4 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container1row .row .col-4 p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
   }
   body .container1row .row .col-3 {
     display: flex;
@@ -349,6 +473,10 @@ footer .socialmedia P a img {
     width: auto;
   }
   body .declaracion {
+    font-family: "Kaushan Script", cursive;
+    font-size: 0.7em;
+  }
+  body .decla {
     font-family: "Kaushan Script", cursive;
     font-size: 0.7em;
   }
