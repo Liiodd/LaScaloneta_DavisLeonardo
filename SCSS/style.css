@@ -200,14 +200,6 @@ body .container2row .row .col-4 p b {
   font-family: "Anton", sans-serif;
   background-color: #ffc34a;
 }
-body .container2row .row .col-4 p {
-  font-size: 1.4em;
-  font-family: "Dosis", sans-serif;
-}
-body .container2row .row .col-4 p b {
-  font-family: "Anton", sans-serif;
-  background-color: #ffc34a;
-}
 body .container2row .row .col-4 img {
   border-radius: 1em 1em 1em 1em;
   width: auto;
@@ -481,7 +473,18 @@ footer .socialmedia P a img {
     font-size: 0.7em;
   }
   body .container2row .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  body .container2row .row .col-4 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container2row .row .col-4 p {
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 0.7em;
   }
   body .container2row .row .col-3 {
     display: flex;

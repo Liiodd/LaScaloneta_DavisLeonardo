@@ -1,8 +1,6 @@
 @import 'utilities/fonts';
 @import 'utilities/variables';
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -256,16 +254,6 @@ body {
                         
                     }
 
-                
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                    b{
-                        font-family: $fontnavbar;
-                        background-color: #ffc34a;
-                    }
-                    
-                }
                 img {
                     border-radius: $borderfotoscenter;
                         width: auto;
