@@ -31,7 +31,7 @@ header .container-fluid .encabezado1 p {
   font-size: 3em;
   font-family: "Luckiest Guy", cursive;
 }
-header .container-fluid .encabezado1btn {
+header .container-fluid h1 {
   width: 22em;
   display: inline-flex;
   justify-content: center;
@@ -164,7 +164,7 @@ body .decla {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   background: linear-gradient(90deg, rgb(216, 246, 218) 1%, rgba(74, 255, 116, 0.5438376034) 61%);
-  width: 60vw;
+  width: 80vw;
 }
 body .container2row {
   margin-top: 0.5em;
@@ -238,14 +238,6 @@ body .container3row .row .col-4 p b {
   font-family: "Anton", sans-serif;
   background-color: #ffc34a;
 }
-body .container3row .row .col-4 p {
-  font-size: 1.4em;
-  font-family: "Dosis", sans-serif;
-}
-body .container3row .row .col-4 p b {
-  font-family: "Anton", sans-serif;
-  background-color: #ffc34a;
-}
 body .container3row .row .col-4 img {
   border-radius: 1em 1em 1em 1em;
   width: auto;
@@ -293,11 +285,21 @@ body .container4row .row .col-8 img {
 }
 body .container4row .row .col-4 {
   display: flex;
-  text-align: right;
+  text-align: left;
 }
 body .container4row .row .col-4 p {
   font-size: 1.4em;
   font-family: "Dosis", sans-serif;
+}
+body .container4row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container4row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+  align-items: center;
 }
 body .container5row {
   margin-top: 0.5em;
@@ -312,6 +314,24 @@ body .container5row .row {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
   flex-direction: row;
+}
+body .container5row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container5row .row .col-4 p {
+  font-size: 1.4em;
+  font-family: "Dosis", sans-serif;
+}
+body .container5row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container5row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+  align-items: center;
 }
 body .container5row .row .col-3 {
   display: flex;
@@ -476,12 +496,14 @@ footer .socialmedia P a img {
     flex-direction: column;
   }
   body .container2row .row .col-4 {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 750px;
     margin: auto;
   }
   body .container2row .row .col-4 p {
+    margin-top: 1em;
     text-align: center;
     font-size: 0.8em;
     font-family: 0.8em;
@@ -503,7 +525,19 @@ footer .socialmedia P a img {
     width: auto;
   }
   body .container3row .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  body .container3row .row .col-4 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container3row .row .col-4 p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container3row .row .col-3 {
     display: flex;
@@ -522,18 +556,24 @@ footer .socialmedia P a img {
     width: auto;
   }
   body .container4row .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   body .container4row .row .col-4 {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 750px;
     margin: auto;
   }
   body .container4row .row .col-4 p {
+    margin-top: 1em;
     text-align: center;
     font-size: 0.8em;
     font-family: 0.8em;
+  }
+  body .container4row .row .col-4 img {
+    justify-content: center;
+    width: auto;
   }
   body .container4row .row .col-8 {
     justify-content: center;

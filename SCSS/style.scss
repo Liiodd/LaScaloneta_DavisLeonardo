@@ -41,7 +41,7 @@ header {
             font-family: $fontscaloneta;
         }        
                 }
-                .encabezado1btn {
+                h1 {
                     width: 22em;
                     display: inline-flex;
                     justify-content: center;
@@ -212,7 +212,7 @@ body {
         margin-top: .5em;
         margin-bottom: .5em;
         background: linear-gradient(90deg, rgba(216,246,218,1) 1%, rgba(74,255,116,0.5438376034007353) 61%);
-        width: 60vw;
+        width: 80vw;
     }
 
     .container2row {
@@ -305,16 +305,6 @@ body {
                         
                     }
 
-                
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                    b{
-                        font-family: $fontnavbar;
-                        background-color: #ffc34a;
-                    }
-                    
-                }
                 img {
                     border-radius: $borderfotoscenter;
                         width: auto;
@@ -382,11 +372,23 @@ body {
 
             .col-4 {
                 display: flex;
-                text-align: right;
-
+                text-align: left;
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    b {
+                        font-family: $fontnavbar;
+                        background-color: #ffc34a;
+                    }
+                    
+                }
+                img {
+                    border-radius: $borderfotoscenter;
+                        width: auto;
+                   filter: drop-shadow(2px 2px 5px black);
+                   
+                   align-items: center;
+
                 }
 
             }
@@ -415,6 +417,29 @@ body {
             padding-top: 0.6em;
             padding-bottom: 0.6em;
             flex-direction: row;
+            .col-4 {
+                display: flex;
+                text-align: left;
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                    b {
+                        font-family: $fontnavbar;
+                        background-color: #ffc34a;
+                    }
+                    
+                }
+                img {
+                    border-radius: $borderfotoscenter;
+                        width: auto;
+                   filter: drop-shadow(2px 2px 5px black);
+                   
+                   align-items: center;
+
+                }
+
+            }
+
             .col-3 {
                 display: flex;
                 text-align: left;
