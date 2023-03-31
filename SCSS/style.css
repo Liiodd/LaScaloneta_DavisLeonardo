@@ -413,11 +413,11 @@ footer .socialmedia P a img {
 
 @media only screen and (max-width: 767px) {
   header .btncampeones {
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-family: "Kaushan Script", cursive;
   }
   header .nav-item a {
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: white;
     font-family: "Anton", sans-serif;
   }
@@ -426,7 +426,7 @@ footer .socialmedia P a img {
     font-family: "Luckiest Guy", cursive;
   }
   header .container-fluid .encabezado1btn {
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-family: "Anton", sans-serif;
     margin-bottom: 2em;
   }
@@ -445,8 +445,8 @@ footer .socialmedia P a img {
   body .container1row .row .col-4 p {
     margin-top: 1em;
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container1row .row .col-3 {
     display: flex;
@@ -456,8 +456,8 @@ footer .socialmedia P a img {
   }
   body .container1row .row .col-3 p {
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container1row .row .col-9 {
     justify-content: center;
@@ -466,11 +466,11 @@ footer .socialmedia P a img {
   }
   body .declaracion {
     font-family: "Kaushan Script", cursive;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   body .decla {
     font-family: "Kaushan Script", cursive;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   body .container2row .row {
     flex-direction: column;
@@ -483,8 +483,8 @@ footer .socialmedia P a img {
   }
   body .container2row .row .col-4 p {
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container2row .row .col-3 {
     display: flex;
@@ -494,8 +494,8 @@ footer .socialmedia P a img {
   }
   body .container2row .row .col-3 p {
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container2row .row .col-9 {
     justify-content: center;
@@ -513,8 +513,8 @@ footer .socialmedia P a img {
   }
   body .container3row .row .col-3 p {
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container3row .row .col-9 {
     justify-content: center;
@@ -532,8 +532,8 @@ footer .socialmedia P a img {
   }
   body .container4row .row .col-4 p {
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container4row .row .col-8 {
     justify-content: center;
@@ -551,8 +551,8 @@ footer .socialmedia P a img {
   }
   body .container5row .row .col-3 p {
     text-align: center;
-    font-size: 0.7em;
-    font-family: 0.7em;
+    font-size: 0.8em;
+    font-family: 0.8em;
   }
   body .container5row .row .col-9 {
     justify-content: center;
@@ -585,7 +585,7 @@ footer .socialmedia P a img {
   }
   body .palmares .copa p {
     font-family: "Anton", sans-serif;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #ffc34a;
   }
 }
@@ -598,7 +598,7 @@ footer .socialmedia P a img {
   footer .socialmedia p {
     flex-direction: column;
     justify-content: center;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   footer .socialmedia p a {
     flex-direction: column;
@@ -640,7 +640,7 @@ footer .socialmedia P a img {
   body .container1row .row .col-3 p {
     text-align: center;
     font-size: 1.1em;
-    font-family: 0.7em;
+    font-family: 0.8em;
   }
   body .container1row .row .col-9 {
     justify-content: center;
@@ -663,7 +663,7 @@ footer .socialmedia P a img {
   body .container2row .row .col-3 p {
     text-align: center;
     font-size: 1.1em;
-    font-family: 0.7em;
+    font-family: 0.8em;
   }
   body .container2row .row .col-9 {
     justify-content: center;
@@ -682,7 +682,7 @@ footer .socialmedia P a img {
   body .container3row .row .col-3 p {
     text-align: center;
     font-size: 1.1em;
-    font-family: 0.7em;
+    font-family: 0.8em;
   }
   body .container3row .row .col-9 {
     justify-content: center;
@@ -701,7 +701,7 @@ footer .socialmedia P a img {
   body .container4row .row .col-4 p {
     text-align: center;
     font-size: 1.1em;
-    font-family: 0.7em;
+    font-family: 0.8em;
   }
   body .container4row .row .col-8 {
     justify-content: center;
@@ -720,7 +720,7 @@ footer .socialmedia P a img {
   body .container5row .row .col-3 p {
     text-align: center;
     font-size: 1.1em;
-    font-family: 0.7em;
+    font-family: 0.8em;
   }
   body .container5row .row .col-9 {
     justify-content: center;
