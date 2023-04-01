@@ -46,7 +46,7 @@ header .container-fluid h1 {
   margin-bottom: 1em;
 }
 header .nav-item a {
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: white;
   font-family: "Anton", sans-serif;
 }
@@ -75,6 +75,10 @@ body {
   /* FIN CONTAINER4ROW */
   /* COMIENZO CONTAINER5ROW */
   /* FIN CONTAINER5ROW */
+  /* COMIENZO CONTAINER6ROW */
+  /* FIN CONTAINER6ROW */
+  /* COMIENZO CONTAINER7ROW */
+  /* FIN CONTAINER7ROW */
 }
 body .navbar-brand img {
   filter: drop-shadow(1px 1px 4px #6667AB);
@@ -95,18 +99,21 @@ body .container1row .row {
 body .container1row .row .col-4 {
   display: flex;
   text-align: left;
-  flex-direction: row;
-  justify-content: center;
 }
 body .container1row .row .col-4 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+}
+body .container1row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
 }
 body .container1row .row .col-4 img {
   border-radius: 1em 1em 1em 1em;
   width: auto;
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
+  align-items: center;
 }
 body .declaracion {
   font-size: 1.5em;
@@ -161,7 +168,7 @@ body .container2row .row .col-4 {
   text-align: left;
 }
 body .container2row .row .col-4 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container2row .row .col-4 p b {
@@ -179,7 +186,7 @@ body .container2row .row .col-3 {
   text-align: right;
 }
 body .container2row .row .col-3 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container3row {
@@ -200,7 +207,7 @@ body .container3row .row .col-4 {
   text-align: left;
 }
 body .container3row .row .col-4 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container3row .row .col-4 p b {
@@ -218,7 +225,7 @@ body .container3row .row .col-3 {
   text-align: left;
 }
 body .container3row .row .col-3 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container3row .row .col-9 {
@@ -259,7 +266,7 @@ body .container4row .row .col-4 {
   text-align: left;
 }
 body .container4row .row .col-4 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container4row .row .col-4 p b {
@@ -292,7 +299,7 @@ body .container5row .row .col-4 {
   text-align: left;
 }
 body .container5row .row .col-4 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container5row .row .col-4 p b {
@@ -311,7 +318,7 @@ body .container5row .row .col-3 {
   text-align: left;
 }
 body .container5row .row .col-3 p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
 }
 body .container5row .row .col-9 {
@@ -320,6 +327,106 @@ body .container5row .row .col-9 {
   justify-content: right;
 }
 body .container5row .row .col-9 img {
+  border-radius: 0 4em 0 4em;
+  justify-content: right;
+}
+body .container6row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container6row .row {
+  border: 2px solid #6667AB;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  flex-direction: row;
+}
+body .container6row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container6row .row .col-4 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+body .container6row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container6row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+  border: 2px solid #ffc34a;
+  align-items: center;
+}
+body .container6row .row .col-3 {
+  display: flex;
+  text-align: left;
+}
+body .container6row .row .col-3 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+body .container6row .row .col-9 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+body .container6row .row .col-9 img {
+  border-radius: 0 4em 0 4em;
+  justify-content: right;
+}
+body .container7row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container7row .row {
+  border: 2px solid #6667AB;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  flex-direction: row;
+}
+body .container7row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container7row .row .col-4 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+body .container7row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container7row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+  border: 2px solid #ffc34a;
+  align-items: center;
+}
+body .container7row .row .col-3 {
+  display: flex;
+  text-align: left;
+}
+body .container7row .row .col-3 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+}
+body .container7row .row .col-9 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+body .container7row .row .col-9 img {
   border-radius: 0 4em 0 4em;
   justify-content: right;
 }
@@ -339,7 +446,7 @@ body .capitulo {
 }
 body .nombrecapitulo {
   font-family: "Anton", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   justify-content: center;
   text-align: center;
   margin: auto;
@@ -347,7 +454,7 @@ body .nombrecapitulo {
 }
 body .resultado {
   font-family: "Kaushan Script", cursive;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: bold;
   justify-content: center;
   text-align: center;
@@ -356,7 +463,7 @@ body .resultado {
   width: 350px;
 }
 body .texto {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Dosis", sans-serif;
   width: 90%;
   margin: auto;
@@ -380,7 +487,6 @@ body .containervid iframe {
 body .palmares {
   display: flex;
   justify-content: space-between;
-  border: 2px solid #ffc34a;
 }
 body .palmares .copa {
   width: 33%;
@@ -402,6 +508,8 @@ footer {
 }
 footer .socialmedia P {
   font-family: "Anton", sans-serif;
+  font-size: "Anton", sans-serif;
+  color: black;
 }
 footer .socialmedia P a img {
   cursor: pointer;
@@ -586,7 +694,7 @@ footer .socialmedia P a img {
     width: auto;
   }
   body .container5row .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   body .container5row .row .col-3 {
     display: flex;
@@ -613,6 +721,74 @@ footer .socialmedia P a img {
     font-family: 0.8em;
   }
   body .container5row .row .col-4 img {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px 3px;
+    width: 90%;
+    border: 1px solid #ffc34a;
+  }
+  body .container6row .row {
+    flex-direction: column;
+  }
+  body .container6row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container6row .row .col-3 p {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 0.8em;
+  }
+  body .container6row .row .col-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container6row .row .col-4 p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 0.8em;
+  }
+  body .container6row .row .col-4 img {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px 3px;
+    width: 90%;
+    border: 1px solid #ffc34a;
+  }
+  body .container7row .row {
+    flex-direction: column;
+  }
+  body .container7row .row .col-3 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container7row .row .col-3 p {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 0.8em;
+  }
+  body .container7row .row .col-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+  }
+  body .container7row .row .col-4 p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 0.8em;
+  }
+  body .container7row .row .col-4 img {
     display: inline-flex;
     justify-content: center;
     margin: 5px 3px;
