@@ -27,10 +27,12 @@ header .container-fluid .scaloneta {
   max-width: 100%;
   height: auto;
   padding: 30px 0 0 0;
+  filter: drop-shadow(10px 10px 7px black);
 }
 header .container-fluid .encabezado1 p {
   font-size: 3em;
   font-family: "Luckiest Guy", cursive;
+  filter: drop-shadow(1px 1px 4px black);
 }
 header .container-fluid h1 {
   width: 22em;
@@ -73,6 +75,9 @@ body {
   /* FIN CONTAINER4ROW */
   /* COMIENZO CONTAINER5ROW */
   /* FIN CONTAINER5ROW */
+}
+body .navbar-brand img {
+  filter: drop-shadow(1px 1px 4px #6667AB);
 }
 body .container1row {
   margin-top: 0.5em;
@@ -380,6 +385,7 @@ body .palmares {
 body .palmares .copa {
   width: 33%;
   text-align: center;
+  filter: drop-shadow(4px 4px 7px black);
 }
 body .palmares .copa p {
   font-family: "Anton", sans-serif;

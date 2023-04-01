@@ -28,12 +28,15 @@ header {
             max-width: 100%;
             height: auto;
             padding: 30px 0 0 0;
+            filter: drop-shadow(10px 10px 7px black);
+
         }
         /* CONTAINER-FLUID "EL CAMINO"*/
         .encabezado1 {
             p {
                 font-size: $fontsizebig;
                 font-family: $fontscaloneta;
+                filter: drop-shadow(1px 1px 4px black);
             }
         }
         h1 {
@@ -66,6 +69,11 @@ header {
 }  /* FIN HEADER */
 /* COMIENZO BODY */   
 body {
+    .navbar-brand{
+        img{
+            filter: drop-shadow(1px 1px 4px #6667AB);
+        }
+    }
     background: linear-gradient(180deg, rgba(199, 232, 225, 1) 20%, rgba(34, 162, 156, 1) 76%);
 
  /* COMIENZO CONTAINER1ROW */ 
@@ -459,6 +467,7 @@ body {
 
             width: 33%;
             text-align: center;
+            filter: drop-shadow(4px 4px 7px black);
 
             p {
                 font-family: $fontnavbar;
