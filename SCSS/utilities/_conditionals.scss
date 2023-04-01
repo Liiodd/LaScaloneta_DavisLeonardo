@@ -31,7 +31,7 @@ header {
                     font-family: $fontscaloneta;
                 }
                 }
-                .encabezado1btn{
+                h1{
                     font-size: $fontsizenormalmobile;
                     font-family: $fontnavbar;
                     margin-bottom: 2em;
@@ -63,8 +63,13 @@ body {
                             text-align: center;
                             font-size: $fontsizenormalmobile;
                             font-family: $fontsizenormalmobile;
-
                         }
+                        img { display: inline-flex;
+                        justify-content: center;
+                        margin: 5px 3px;
+                        width: 90%;
+                        border: 1px solid #ffc34a; 
+                    }
                     }
 
                     .col-3 {
@@ -98,7 +103,10 @@ body {
                 font-family: $fontcursiva;
                 font-size: $fontsizenormalmobile;
             }
-
+            .resultado {
+                font-family: $fontcursiva;
+                font-size: $fontsizeintermmobile;
+            }
             .container2row {
                 .row {
                     flex-direction: column;
@@ -116,6 +124,12 @@ body {
                             font-size: $fontsizenormalmobile;
                             font-family: $fontsizenormalmobile;
 
+                        }
+                        img { display: inline-flex;
+                            justify-content: center;
+                            margin: 5px 3px;
+                            width: 90%;
+                            border: 1px solid #ffc34a; 
                         }
                     }
 
@@ -157,6 +171,12 @@ body {
                             font-size: $fontsizenormalmobile;
                             font-family: $fontsizenormalmobile;
 
+                        }
+                        img { display: inline-flex;
+                            justify-content: center;
+                            margin: 5px 3px;
+                            width: 90%;
+                            border: 1px solid #ffc34a; 
                         }
                     }
 
@@ -200,9 +220,11 @@ body {
                             font-family: $fontsizenormalmobile;
                         }
 
-                        img{
+                        img { display: inline-flex;
                             justify-content: center;
-                            width: auto;
+                            margin: 5px 3px;
+                            width: 90%;
+                            border: 1px solid #ffc34a; 
                         }
                     }
 
@@ -231,10 +253,27 @@ body {
                         }
                     }
 
-                    .col-9 {
+                    .col-4 {
+                        flex-direction: column;
                         justify-content: center;
-                        max-width: 100%;
-                        width: auto;
+                        align-items: center;
+                        width: 750px;
+                        margin: auto;
+
+                    
+                        p {
+                            margin-top: 1em;
+                            text-align: center;
+                            font-size: $fontsizenormalmobile;
+                            font-family: $fontsizenormalmobile;
+                        }
+
+                        img { display: inline-flex;
+                            justify-content: center;
+                            margin: 5px 3px;
+                            width: 90%;
+                            border: 1px solid #ffc34a; 
+                        }
                     }
                 }
             }
