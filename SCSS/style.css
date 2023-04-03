@@ -103,6 +103,7 @@ body .container1row .row .col-4 {
 body .container1row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 body .container1row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -113,7 +114,6 @@ body .container1row .row .col-4 img {
   width: auto;
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
-  align-items: center;
 }
 body .declaracion {
   font-size: 1.5em;
@@ -153,16 +153,6 @@ body .container2row .row {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
 }
-body .container2row .row .col-9 {
-  display: flex;
-  align-items: left;
-}
-body .container2row .row .col-9 img {
-  border-radius: 4em 0 4em 0;
-  max-width: 100%;
-  width: auto;
-  border: 2px solid #ffc34a;
-}
 body .container2row .row .col-4 {
   display: flex;
   text-align: left;
@@ -170,6 +160,7 @@ body .container2row .row .col-4 {
 body .container2row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: left;
 }
 body .container2row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -180,14 +171,6 @@ body .container2row .row .col-4 img {
   width: auto;
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
-}
-body .container2row .row .col-3 {
-  display: flex;
-  text-align: right;
-}
-body .container2row .row .col-3 p {
-  font-size: 1.3em;
-  font-family: "Dosis", sans-serif;
 }
 body .container3row {
   margin-top: 0.5em;
@@ -209,6 +192,7 @@ body .container3row .row .col-4 {
 body .container3row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 body .container3row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -219,24 +203,6 @@ body .container3row .row .col-4 img {
   width: auto;
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
-}
-body .container3row .row .col-3 {
-  display: flex;
-  text-align: left;
-}
-body .container3row .row .col-3 p {
-  font-size: 1.3em;
-  font-family: "Dosis", sans-serif;
-}
-body .container3row .row .col-9 {
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-body .container3row .row .col-9 img {
-  border-radius: 0 4em 0 4em;
-  max-width: 100%;
-  width: auto;
 }
 body .container4row {
   margin-top: 0.5em;
@@ -251,16 +217,6 @@ body .container4row .row {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
 }
-body .container4row .row .col-8 {
-  display: flex;
-  align-items: left;
-}
-body .container4row .row .col-8 img {
-  border-radius: 4em 0 4em 0;
-  max-width: 100%;
-  width: auto;
-  border: 2px solid #ffc34a;
-}
 body .container4row .row .col-4 {
   display: flex;
   text-align: left;
@@ -268,6 +224,7 @@ body .container4row .row .col-4 {
 body .container4row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 body .container4row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -301,6 +258,7 @@ body .container5row .row .col-4 {
 body .container5row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: left;
 }
 body .container5row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -312,23 +270,6 @@ body .container5row .row .col-4 img {
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
   align-items: center;
-}
-body .container5row .row .col-3 {
-  display: flex;
-  text-align: left;
-}
-body .container5row .row .col-3 p {
-  font-size: 1.3em;
-  font-family: "Dosis", sans-serif;
-}
-body .container5row .row .col-9 {
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-body .container5row .row .col-9 img {
-  border-radius: 0 4em 0 4em;
-  justify-content: right;
 }
 body .container6row {
   margin-top: 0.5em;
@@ -351,6 +292,7 @@ body .container6row .row .col-4 {
 body .container6row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: right;
 }
 body .container6row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -362,23 +304,6 @@ body .container6row .row .col-4 img {
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
   align-items: center;
-}
-body .container6row .row .col-3 {
-  display: flex;
-  text-align: left;
-}
-body .container6row .row .col-3 p {
-  font-size: 1.3em;
-  font-family: "Dosis", sans-serif;
-}
-body .container6row .row .col-9 {
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-body .container6row .row .col-9 img {
-  border-radius: 0 4em 0 4em;
-  justify-content: right;
 }
 body .container7row {
   margin-top: 0.5em;
@@ -401,6 +326,7 @@ body .container7row .row .col-4 {
 body .container7row .row .col-4 p {
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 body .container7row .row .col-4 p b {
   font-family: "Anton", sans-serif;
@@ -412,23 +338,6 @@ body .container7row .row .col-4 img {
   filter: drop-shadow(2px 2px 5px black);
   border: 2px solid #ffc34a;
   align-items: center;
-}
-body .container7row .row .col-3 {
-  display: flex;
-  text-align: left;
-}
-body .container7row .row .col-3 p {
-  font-size: 1.3em;
-  font-family: "Dosis", sans-serif;
-}
-body .container7row .row .col-9 {
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-body .container7row .row .col-9 img {
-  border-radius: 0 4em 0 4em;
-  justify-content: right;
 }
 body .nav-item2 a:hover {
   background-color: #7FF56D;

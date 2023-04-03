@@ -97,6 +97,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: center;
 
                     b {
                         font-family: $fontnavbar;
@@ -110,11 +111,12 @@ body {
                     width: auto;
                     filter: drop-shadow(2px 2px 5px black);
                     border: 2px solid #ffc34a;
-                    align-items: center;
 
                 }
 
             }
+
+
         }
     } /* FIN CONTAINER1ROW */ 
 
@@ -160,19 +162,6 @@ body {
             padding-top: 0.6em;
             padding-bottom: 0.6em;
 
-            .col-9 {
-                display: flex;
-                align-items: left;
-
-                img {
-                    border-radius: $borderfotosizq;
-                    max-width: 100%;
-                    width: auto;
-                    border: 2px solid #ffc34a;
-                }
-
-            }
-
             .col-4 {
                 display: flex;
                 text-align: left;
@@ -180,6 +169,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: left;
 
                     b {
                         font-family: $fontnavbar;
@@ -198,16 +188,6 @@ body {
 
             }
 
-            .col-3 {
-                display: flex;
-                text-align: right;
-
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                }
-
-            }
         }
 
     } /* FIN CONTAINER2ROW */ 
@@ -233,6 +213,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: center;
 
                     b {
                         font-family: $fontnavbar;
@@ -252,32 +233,6 @@ body {
             }
 
 
-            .col-3 {
-                display: flex;
-                text-align: left;
-
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                }
-
-            }
-
-            .col-9 {
-                display: flex;
-                align-items: right;
-                justify-content: right;
-
-                img {
-                    border-radius: $borderfotosder;
-                    max-width: 100%;
-                    width: auto;
-
-                }
-
-
-            }
-
         }
 
     } /* FIN CONTAINER3ROW */ 
@@ -296,18 +251,6 @@ body {
             padding-top: 0.6em;
             padding-bottom: 0.6em;
 
-            .col-8 {
-                display: flex;
-                align-items: left;
-
-                img {
-                    border-radius: $borderfotosizq;
-                    max-width: 100%;
-                    width: auto;
-                    border: 2px solid #ffc34a;
-                }
-
-            }
 
             .col-4 {
                 display: flex;
@@ -316,6 +259,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: center;
 
                     b {
                         font-family: $fontnavbar;
@@ -359,6 +303,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: left;
 
                     b {
                         font-family: $fontnavbar;
@@ -378,26 +323,7 @@ body {
 
             }
 
-            .col-3 {
-                display: flex;
-                text-align: left;
-
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                }
-            }
-
-            .col-9 {
-                display: flex;
-                align-items: right;
-                justify-content: right;
-
-                img {
-                    border-radius: $borderfotosder;
-                    justify-content: right;
-                }
-            }
+            
         }
     } /* FIN CONTAINER5ROW */ 
 
@@ -423,11 +349,14 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: right;
 
                     b {
                         font-family: $fontnavbar;
                         background-color: #ffc34a;
+                        
                     }
+                   
 
                 }
 
@@ -440,27 +369,6 @@ body {
 
                 }
 
-            }
-
-            .col-3 {
-                display: flex;
-                text-align: left;
-
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                }
-            }
-
-            .col-9 {
-                display: flex;
-                align-items: right;
-                justify-content: right;
-
-                img {
-                    border-radius: $borderfotosder;
-                    justify-content: right;
-                }
             }
         }
     } /* FIN CONTAINER6ROW */ 
@@ -487,6 +395,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
+                    text-align: center;
 
                     b {
                         font-family: $fontnavbar;
@@ -504,27 +413,6 @@ body {
 
                 }
 
-            }
-
-            .col-3 {
-                display: flex;
-                text-align: left;
-
-                p {
-                    font-size: $fontsizenormal;
-                    font-family: $fontparrafo;
-                }
-            }
-
-            .col-9 {
-                display: flex;
-                align-items: right;
-                justify-content: right;
-
-                img {
-                    border-radius: $borderfotosder;
-                    justify-content: right;
-                }
             }
         }
     } /* FIN CONTAINER7ROW */ 
