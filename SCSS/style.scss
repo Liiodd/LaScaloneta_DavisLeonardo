@@ -417,6 +417,94 @@ body {
         }
     } /* FIN CONTAINER7ROW */ 
 
+     /* COMIENZO CONTAINER8ROW */ 
+     .container8row {
+        margin-top: .5em;
+        justify-content: center;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+
+        .row {
+            border: 2px solid #6667AB;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+            flex-direction: row;
+
+            .col-4 {
+                display: flex;
+                text-align: left;
+
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                    text-align: center;
+
+                    b {
+                        font-family: $fontnavbar;
+                        background-color: #ffc34a;
+                    }
+
+                }
+
+                img {
+                    border-radius: $borderfotoscenter;
+                    width: auto;
+                    filter: drop-shadow(2px 2px 5px black);
+                    border: 2px solid #ffc34a;
+                    align-items: center;
+
+                }
+
+            }
+        }
+    } /* FIN CONTAINER8ROW */
+    
+     /* COMIENZO CONTAINER9ROW */ 
+     .container9row {
+        margin-top: .5em;
+        justify-content: center;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+
+        .row {
+            border: 2px solid #6667AB;
+            margin: 2px 2px 2px 3px;
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+            flex-direction: row;
+
+            .col-4 {
+                display: flex;
+                text-align: left;
+
+                p {
+                    font-size: $fontsizenormal;
+                    font-family: $fontparrafo;
+                    text-align: center;
+
+                    b {
+                        font-family: $fontnavbar;
+                        background-color: #ffc34a;
+                    }
+
+                }
+
+                img {
+                    border-radius: $borderfotoscenter;
+                    width: auto;
+                    filter: drop-shadow(2px 2px 5px black);
+                    border: 2px solid #ffc34a;
+                    align-items: center;
+
+                }
+
+            }
+        }
+    } /* FIN CONTAINER9ROW */ 
+
     .nav-item2 {
         a {
             &:hover {

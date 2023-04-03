@@ -79,6 +79,10 @@ body {
   /* FIN CONTAINER6ROW */
   /* COMIENZO CONTAINER7ROW */
   /* FIN CONTAINER7ROW */
+  /* COMIENZO CONTAINER8ROW */
+  /* FIN CONTAINER8ROW */
+  /* COMIENZO CONTAINER9ROW */
+  /* FIN CONTAINER9ROW */
 }
 body .navbar-brand img {
   filter: drop-shadow(1px 1px 4px #6667AB);
@@ -333,6 +337,74 @@ body .container7row .row .col-4 p b {
   background-color: #ffc34a;
 }
 body .container7row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+  border: 2px solid #ffc34a;
+  align-items: center;
+}
+body .container8row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container8row .row {
+  border: 2px solid #6667AB;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  flex-direction: row;
+}
+body .container8row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container8row .row .col-4 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+body .container8row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container8row .row .col-4 img {
+  border-radius: 1em 1em 1em 1em;
+  width: auto;
+  filter: drop-shadow(2px 2px 5px black);
+  border: 2px solid #ffc34a;
+  align-items: center;
+}
+body .container9row {
+  margin-top: 0.5em;
+  justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+body .container9row .row {
+  border: 2px solid #6667AB;
+  margin: 2px 2px 2px 3px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  flex-direction: row;
+}
+body .container9row .row .col-4 {
+  display: flex;
+  text-align: left;
+}
+body .container9row .row .col-4 p {
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+body .container9row .row .col-4 p b {
+  font-family: "Anton", sans-serif;
+  background-color: #ffc34a;
+}
+body .container9row .row .col-4 img {
   border-radius: 1em 1em 1em 1em;
   width: auto;
   filter: drop-shadow(2px 2px 5px black);
