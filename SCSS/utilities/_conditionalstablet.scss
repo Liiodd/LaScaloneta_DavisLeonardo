@@ -8,7 +8,7 @@ $fontnavbar: 'Anton', sans-serif;
 
 
 header {
-    @if $vista == tablet {
+    @if $vista ==tablet {
         @media only screen and (min-width: 768px) and (max-width: 1200px) {
             .btncampeones {
                 font-size: $fontsizenormaltablet;
@@ -23,48 +23,49 @@ header {
                 }
 
             }
-            .container-fluid{
+
+            .container-fluid {
                 .encabezado1 {
-                    p{
-                    font-size: $fontsizebigtablet;
-                    font-family: $fontscaloneta;
+                    p {
+                        font-size: $fontsizebigtablet;
+                        font-family: $fontscaloneta;
+                    }
                 }
-                }
-                .encabezado1btn{
+
+                .encabezado1btn {
                     font-size: $fontsizeintermtablet;
                     font-family: $fontnavbar;
                     margin-bottom: 2em;
                 }
 
 
-        }
+            }
         }
     }
 
 }
 
 body {
-    @if $vista == tablet {
+    @if $vista ==tablet {
         @media only screen and (min-width: 768px) and (max-width: 1200px) {
             .container1row {
                 .row {
-                    flex-direction: column-reverse;
-                    .col-3 {
-                     display: flex;
-                     align-items: center;
-                     width: 1150px;
-                     margin: auto;
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
                         p {
                             text-align: center;
                             font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-                            
+
                         }
                     }
-                    .col-9{
-                        justify-content: center;
-                        max-width: 100%; width: auto;
-                    }
+
                 }
             }
 
@@ -75,90 +76,163 @@ body {
 
             .container2row {
                 .row {
-                    flex-direction: column-reverse;
-                    .col-3 {
-                     display: flex;
-                     align-items: center;
-                     width: 1150px;
-                     margin: auto;
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
                         p {
                             text-align: center;
                             font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-                            
+
                         }
-                    }
-                    .col-9{
-                        justify-content: center;
-                        max-width: 100%; width: auto;
                     }
                 }
             }
+
             .container3row {
                 .row {
-                    flex-direction: column-reverse;
-                    .col-3 {
-                     display: flex;
-                     align-items: center;
-                     width: 1150px;
-                     margin: auto;
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
                         p {
                             text-align: center;
                             font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-                            
+
                         }
-                    }
-                    .col-9{
-                        justify-content: center;
-                        max-width: 100%; width: auto;
                     }
                 }
             }
+
             .container4row {
                 .row {
-                    flex-direction: column-reverse;
+                    flex-direction: column;
+
                     .col-4 {
-                     display: flex;
-                     align-items: center;
-                     width: 1150px;
-                     margin: auto;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
                         p {
                             text-align: center;
                             font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-                            
+
                         }
-                    }
-                    .col-8{
-                        justify-content: center;
-                        max-width: 100%; width: auto;
                     }
                 }
             }
 
             .container5row {
                 .row {
-                    flex-direction: column-reverse;
-                    .col-3 {
-                     display: flex;
-                     align-items: center;
-                     width: 1150px;
-                     margin: auto;
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
                         p {
                             text-align: center;
                             font-size: $fontsizenormaltablet;
                             font-family: $fontsizenormalmobile;
-                            
+
                         }
-                    }
-                    .col-9{
-                        justify-content: center;
-                        max-width: 100%; width: auto;
                     }
                 }
             }
 
+            .container6row {
+                .row {
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
+                        p {
+                            text-align: center;
+                            font-size: $fontsizenormaltablet;
+                            font-family: $fontsizenormalmobile;
+
+                        }
+                    }
+                }
+            }
+
+            .container7row {
+                .row {
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
+                        p {
+                            text-align: center;
+                            font-size: $fontsizenormaltablet;
+                            font-family: $fontsizenormalmobile;
+
+                        }
+                    }
+                }
+            }
+
+            .container8row {
+                .row {
+                    flex-direction: column;
+
+                    .col-4 {
+                        justify-content: center;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
+                        p {
+                            text-align: center;
+                            font-size: $fontsizenormaltablet;
+                            font-family: $fontsizenormalmobile;
+
+                        }
+                    }
+                }
+            }
+
+            .container9row {
+                .row {
+                    flex-direction: column;
+
+                    .col-4 {
+                        display: flex;
+                        align-items: center;
+                        width: 1150px;
+                        margin: 5px;
+
+                        p {
+                            text-align: center;
+                            font-size: $fontsizenormaltablet;
+                            font-family: $fontsizenormalmobile;
+
+                        }
+                    }
+                }
+            }
 
 
 
@@ -168,14 +242,15 @@ body {
                 justify-content: center;
                 align-items: center;
                 width: auto;
+
                 iframe {
                     display: inline-flex;
                     justify-content: center;
                     margin: 5px 3px;
                     width: 90%;
-                    border: 1px solid #ffc34a; 
-                  }
-              }
+                    border: 1px solid #ffc34a;
+                }
+            }
 
         }
 

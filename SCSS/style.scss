@@ -16,6 +16,7 @@ header {
         justify-content: center;
         display: flex;
     }
+
     .container-fluid {
         background-image: url(../images/veryperi.jpg);
         background-repeat: no-repeat;
@@ -23,6 +24,7 @@ header {
         width: 100%;
         text-align: center;
         color: white;
+
         .scaloneta {
             justify-content: center;
             max-width: 100%;
@@ -31,6 +33,7 @@ header {
             filter: drop-shadow(10px 10px 7px black);
 
         }
+
         /* CONTAINER-FLUID "EL CAMINO"*/
         .encabezado1 {
             p {
@@ -39,6 +42,7 @@ header {
                 filter: drop-shadow(1px 1px 4px black);
             }
         }
+
         h1 {
             width: 22em;
             display: inline-flex;
@@ -51,32 +55,38 @@ header {
             margin-bottom: 1em;
         }
     }
+
     .nav-item {
         a {
             font-size: $fontsizenormal;
             color: white;
             font-family: $fontnavbar;
         }
+
         &:hover {
             background-color: skyblue;
             filter: brightness(150%);
             transition: 1.5s;
+
             a {
-                color: black;           
+                color: black;
             }
         }
     }
-}  /* FIN HEADER */
-/* COMIENZO BODY */   
+}
+
+/* FIN HEADER */
+/* COMIENZO BODY */
 body {
-    .navbar-brand{
-        img{
+    .navbar-brand {
+        img {
             filter: drop-shadow(1px 1px 4px #6667AB);
         }
     }
+
     background: linear-gradient(180deg, rgba(199, 232, 225, 1) 20%, rgba(34, 162, 156, 1) 76%);
 
- /* COMIENZO CONTAINER1ROW */ 
+    /* COMIENZO CONTAINER1ROW */
     .container1row {
         margin-top: .5em;
         justify-content: center;
@@ -91,6 +101,8 @@ body {
             padding-bottom: 0.6em;
 
             .col-4 {
+                flex-direction: row;
+                justify-content: center;
                 display: flex;
                 text-align: left;
 
@@ -118,9 +130,11 @@ body {
 
 
         }
-    } /* FIN CONTAINER1ROW */ 
+    }
 
-/* COMIENZO DECLARACIONES */ 
+    /* FIN CONTAINER1ROW */
+
+    /* COMIENZO DECLARACIONES */
     .declaracion {
         font-size: $fontsizeinterm;
         font-family: $fontcursiva;
@@ -146,9 +160,11 @@ body {
         margin-bottom: .5em;
         background: linear-gradient(90deg, rgba(216, 246, 218, 1) 1%, rgba(74, 255, 116, 0.5438376034007353) 61%);
         width: 80vw;
-    }  /* FIN DECLARACIONES */ 
+    }
 
-/* COMIENZO CONTAINER2ROW */ 
+    /* FIN DECLARACIONES */
+
+    /* COMIENZO CONTAINER2ROW */
     .container2row {
         margin-top: .5em;
         justify-content: center;
@@ -190,9 +206,11 @@ body {
 
         }
 
-    } /* FIN CONTAINER2ROW */ 
+    }
 
-/* COMIENZO CONTAINER3ROW */ 
+    /* FIN CONTAINER2ROW */
+
+    /* COMIENZO CONTAINER3ROW */
     .container3row {
         margin-top: .5em;
         margin-left: .5em;
@@ -213,7 +231,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
-                    text-align: center;
+                    text-align: left;
 
                     b {
                         font-family: $fontnavbar;
@@ -235,9 +253,11 @@ body {
 
         }
 
-    } /* FIN CONTAINER3ROW */ 
+    }
 
-/* COMIENZO CONTAINER4ROW */  
+    /* FIN CONTAINER3ROW */
+
+    /* COMIENZO CONTAINER4ROW */
     .container4row {
         margin-top: .5em;
         justify-content: center;
@@ -259,7 +279,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
-                    text-align: center;
+                    text-align: left;
 
                     b {
                         font-family: $fontnavbar;
@@ -279,9 +299,11 @@ body {
 
             }
         }
-    } /* FIN CONTAINER4ROW */ 
+    }
 
-/* COMIENZO CONTAINER5ROW */ 
+    /* FIN CONTAINER4ROW */
+
+    /* COMIENZO CONTAINER5ROW */
     .container5row {
         margin-top: .5em;
         justify-content: center;
@@ -323,11 +345,13 @@ body {
 
             }
 
-            
-        }
-    } /* FIN CONTAINER5ROW */ 
 
-    /* COMIENZO CONTAINER6ROW */ 
+        }
+    }
+
+    /* FIN CONTAINER5ROW */
+
+    /* COMIENZO CONTAINER6ROW */
     .container6row {
         margin-top: .5em;
         justify-content: center;
@@ -349,14 +373,14 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
-                    text-align: right;
+                    text-align: left;
 
                     b {
                         font-family: $fontnavbar;
                         background-color: #ffc34a;
-                        
+
                     }
-                   
+
 
                 }
 
@@ -371,9 +395,11 @@ body {
 
             }
         }
-    } /* FIN CONTAINER6ROW */ 
+    }
 
-    /* COMIENZO CONTAINER7ROW */ 
+    /* FIN CONTAINER6ROW */
+
+    /* COMIENZO CONTAINER7ROW */
     .container7row {
         margin-top: .5em;
         justify-content: center;
@@ -395,7 +421,7 @@ body {
                 p {
                     font-size: $fontsizenormal;
                     font-family: $fontparrafo;
-                    text-align: center;
+                    text-align: left;
 
                     b {
                         font-family: $fontnavbar;
@@ -415,10 +441,12 @@ body {
 
             }
         }
-    } /* FIN CONTAINER7ROW */ 
+    }
 
-     /* COMIENZO CONTAINER8ROW */ 
-     .container8row {
+    /* FIN CONTAINER7ROW */
+
+    /* COMIENZO CONTAINER8ROW */
+    .container8row {
         margin-top: .5em;
         justify-content: center;
         margin-left: .5em;
@@ -459,10 +487,12 @@ body {
 
             }
         }
-    } /* FIN CONTAINER8ROW */
-    
-     /* COMIENZO CONTAINER9ROW */ 
-     .container9row {
+    }
+
+    /* FIN CONTAINER8ROW */
+
+    /* COMIENZO CONTAINER9ROW */
+    .container9row {
         margin-top: .5em;
         justify-content: center;
         margin-left: .5em;
@@ -503,7 +533,9 @@ body {
 
             }
         }
-    } /* FIN CONTAINER9ROW */ 
+    }
+
+    /* FIN CONTAINER9ROW */
 
     .nav-item2 {
         a {
@@ -544,6 +576,7 @@ body {
         background-color: #7FF56D;
         width: 350px;
     }
+
     .texto {
         font-size: $fontsizenormal;
         font-family: $fontparrafo;
@@ -568,10 +601,12 @@ body {
             border: 2px solid #ffc34a;
         }
     }
+
     .palmares {
 
         display: flex;
         justify-content: space-between;
+
         .copa {
 
             width: 33%;
@@ -594,9 +629,11 @@ body {
 
 
 
-} /* FIN BODY */  
+}
 
-/* COMIENZO FOOTER */  
+/* FIN BODY */
+
+/* COMIENZO FOOTER */
 footer {
     background-color: rgba(34, 162, 156, 1);
     display: flex;
@@ -618,7 +655,9 @@ footer {
             }
         }
     }
-} /* FIN FOOTER */  
+}
+
+/* FIN FOOTER */
 
 @import 'utilities/conditionals';
 @import 'utilities/conditionalstablet';
