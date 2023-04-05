@@ -45,6 +45,7 @@ header .container-fluid h1 {
   color: black;
   border-radius: 0 4.5em 0 4.5em;
   margin-bottom: 1em;
+  filter: drop-shadow(5px 5px 7px black);
 }
 header .nav-item a {
   font-size: 1.3em;
@@ -134,6 +135,7 @@ body .declaracion {
   background: linear-gradient(90deg, rgb(224, 244, 21) 20%, rgb(127, 245, 109) 56%);
   width: 90vw;
   border-radius: 0 4.3em 0 4.3em;
+  filter: drop-shadow(5px 5px 7px #6667AB);
 }
 body .decla {
   font-size: 1.5em;
@@ -452,6 +454,7 @@ body .resultado {
   margin: auto;
   background-color: #7FF56D;
   width: 350px;
+  border-radius: 4.5em 0 4.5em 0;
 }
 body .texto {
   font-size: 1.3em;
@@ -504,7 +507,11 @@ footer {
   background-color: rgb(34, 162, 156);
   display: flex;
   justify-content: center;
+  padding-top: 1em;
   flex-direction: row;
+  background-image: url(../images/veryperi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer .socialmedia P {
   font-family: "Anton", sans-serif;
@@ -559,22 +566,6 @@ footer .socialmedia P a img {
     margin: 5px 3px;
     width: 90%;
     border: 1px solid #ffc34a;
-  }
-  body .container1row .row .col-3 {
-    display: flex;
-    align-items: center;
-    width: 750px;
-    margin: auto;
-  }
-  body .container1row .row .col-3 p {
-    text-align: center;
-    font-size: 0.8em;
-    font-family: 0.8em;
-  }
-  body .container1row .row .col-9 {
-    justify-content: center;
-    max-width: 100%;
-    width: auto;
   }
   body .declaracion {
     font-family: "Kaushan Script", cursive;
@@ -877,20 +868,6 @@ footer .socialmedia P a img {
     width: 90%;
     height: 60%;
   }
-  body .palmares {
-    flex-direction: column;
-  }
-  body .palmares .copa {
-    flex-direction: column;
-    justify-content: space-between;
-    width: auto;
-    text-align: row;
-  }
-  body .palmares .copa p {
-    font-family: "Anton", sans-serif;
-    font-size: 0.8em;
-    color: #ffc34a;
-  }
   body .texto {
     font-size: 0.8em;
     font-family: "Dosis", sans-serif;
@@ -1092,13 +1069,12 @@ footer .socialmedia P a img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
   }
   body .containervid iframe {
     display: inline-flex;
     justify-content: center;
     margin: 5px 3px;
-    width: 90%;
     border: 1px solid #ffc34a;
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */

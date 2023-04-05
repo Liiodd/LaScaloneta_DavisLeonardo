@@ -73,25 +73,6 @@ body {
                     }
                     }
 
-                    .col-3 {
-                        display: flex;
-                        align-items: center;
-                        width: 750px;
-                        margin: auto;
-
-                        p {
-                            text-align: center;
-                            font-size: $fontsizenormalmobile;
-                            font-family: $fontsizenormalmobile;
-
-                        }
-                    }
-
-                    .col-9 {
-                        justify-content: center;
-                        max-width: 100%;
-                        width: auto;
-                    }
                 }
             }
 
@@ -443,6 +424,7 @@ body {
                     }
                 }
             }
+
             .containervid {
                 flex-direction: column;
                 display: flex;
@@ -455,27 +437,11 @@ body {
                     margin: 5px 3px;
                     border: 1px solid #ffc34a; 
                     width: 90%;
-                   height: 60%;
+                    height: 60%;
                   }
               }
 
-              .palmares {
-               flex-direction: column;
-               
-                .copa {
-                    flex-direction: column;
-                    justify-content: space-between;
-                    width: auto;
-                    text-align: row;
-                    p{
-                        font-family: $fontnavbar;
-                        font-size: $fontsizenormalmobile;
-                        color: #ffc34a;
-                    }
-                  }
-              }
-
-
+              
               .texto {
                 font-size: $fontsizenormalmobile;
                 font-family: $fontparrafo;
