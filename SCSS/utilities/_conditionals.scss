@@ -475,7 +475,36 @@ body {
               }
 
 
+              .texto {
+                font-size: $fontsizenormalmobile;
+                font-family: $fontsizenormalmobile;
+            }
+
+            .palmares {
+
+                flex-direction: row;
+                justify-content: right;
+               
+        
+                .copa {
+                    flex-direction: row;
+                    justify-content: left;
+                    margin-right: 10px;
+                    filter: drop-shadow(4px 4px 7px black);
+                    .tamaño{
+                        width: 100%;
+                        height: 80%;
+                    }
+        
+                    p {
+                        font-family: $fontnavbar;
+                        color: #ffc34a;
+                    }
+                }
+            }
         }
+
+       
     }
    
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Dosis:wght@200;300&family=Kaushan+Script&family=Luckiest+Guy&family=Mynerve&family=Pacifico&family=Shadows+Into+Light&display=swap");
 * {
   margin: 0;
@@ -872,6 +873,28 @@ footer .socialmedia P a img {
   body .palmares .copa p {
     font-family: "Anton", sans-serif;
     font-size: 0.8em;
+    color: #ffc34a;
+  }
+  body .texto {
+    font-size: 0.8em;
+    font-family: 0.8em;
+  }
+  body .palmares {
+    flex-direction: row;
+    justify-content: right;
+  }
+  body .palmares .copa {
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 10px;
+    filter: drop-shadow(4px 4px 7px black);
+  }
+  body .palmares .copa .tamaño {
+    width: 100%;
+    height: 80%;
+  }
+  body .palmares .copa p {
+    font-family: "Anton", sans-serif;
     color: #ffc34a;
   }
 }
