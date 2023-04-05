@@ -1,4 +1,5 @@
 $vista: mobile;
+$fontsizefootermobile: 0.5em;
 $fontsizenormalmobile: 0.8em;
 $fontsizeintermmobile: 1.1em;
 $fontsizebigmmobile: 1.5em;
@@ -498,7 +499,10 @@ body {
         
                     p {
                         font-family: $fontnavbar;
+                        font-size: $fontsizefootermobile;
                         color: #ffc34a;
+                        width: 100%;
+                        height: 80%;
                     }
                 }
             }

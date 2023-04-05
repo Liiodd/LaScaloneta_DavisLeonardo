@@ -436,6 +436,13 @@ body .nombrecapitulo {
   margin: auto;
   color: black;
 }
+body .nombrecapitulo:hover {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #ffc34a;
+  transition: 0.7s;
+}
 body .resultado {
   font-family: "Kaushan Script", cursive;
   font-size: 1.3em;
@@ -467,6 +474,10 @@ body .containervid iframe {
   margin: 10px 5px;
   width: 32%;
   border: 2px solid #ffc34a;
+}
+body .containervid iframe:hover {
+  border: 4px solid #6667AB;
+  transition: 0.5s;
 }
 body .palmares {
   display: flex;
@@ -895,7 +906,10 @@ footer .socialmedia P a img {
   }
   body .palmares .copa p {
     font-family: "Anton", sans-serif;
+    font-size: 0.5em;
     color: #ffc34a;
+    width: 100%;
+    height: 80%;
   }
 }
 
