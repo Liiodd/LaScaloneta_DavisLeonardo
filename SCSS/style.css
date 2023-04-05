@@ -52,9 +52,9 @@ header .nav-item a {
   font-family: "Anton", sans-serif;
 }
 header .nav-item:hover {
-  background-color: skyblue;
-  filter: brightness(150%);
-  transition: 1.5s;
+  background-color: rgb(34, 162, 156);
+  filter: brightness(130%);
+  transition: 1.2s;
 }
 header .nav-item:hover a {
   color: black;
@@ -488,6 +488,11 @@ body .palmares .copa {
   text-align: center;
   filter: drop-shadow(4px 4px 7px black);
 }
+body .palmares .copa:hover {
+  transition: 1s;
+  filter: brightness(110%);
+  filter: drop-shadow(2px 2px 7px #ffc34a);
+}
 body .palmares .copa p {
   font-family: "Anton", sans-serif;
   color: #ffc34a;
@@ -863,14 +868,14 @@ footer .socialmedia P a img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
   }
   body .containervid iframe {
     display: inline-flex;
     justify-content: center;
     margin: 5px 3px;
-    width: 90%;
     border: 1px solid #ffc34a;
+    width: 90%;
+    height: 60%;
   }
   body .palmares {
     flex-direction: column;
@@ -888,7 +893,8 @@ footer .socialmedia P a img {
   }
   body .texto {
     font-size: 0.8em;
-    font-family: 0.8em;
+    font-family: "Dosis", sans-serif;
+    width: 90%;
   }
   body .palmares {
     flex-direction: row;

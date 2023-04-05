@@ -64,10 +64,9 @@ header {
         }
 
         &:hover {
-            background-color: skyblue;
-            filter: brightness(150%);
-            transition: 1.5s;
-
+            background-color: rgba(34, 162, 156, 1);
+            filter: brightness(130%);
+            transition: 1.2s;
             a {
                 color: black;
             }
@@ -626,6 +625,12 @@ body {
             text-align: center;
             filter: drop-shadow(4px 4px 7px black);
 
+            &:hover {
+                transition: 1s;
+                filter: brightness(110%);
+                filter: drop-shadow(2px 2px 7px #ffc34a);
+            }
+
             p {
                 font-family: $fontnavbar;
                 color: #ffc34a;
@@ -643,16 +648,25 @@ footer {
     justify-content: center;
     flex-direction: row;
 
+   
+
     .socialmedia {
+       
+
+
         P {
             font-family: $fontnavbar;
             font-size: $fontnavbar;
             color: black;
+            
+
+           
 
             a {
 
                 img {
                     cursor: pointer;
+                 
 
                 }
             }

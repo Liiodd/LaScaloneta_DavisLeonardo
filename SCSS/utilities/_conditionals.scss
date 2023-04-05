@@ -448,14 +448,14 @@ body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: auto;
                 
                 iframe {
                     display: inline-flex;
                     justify-content: center;
                     margin: 5px 3px;
-                    width: 90%;
                     border: 1px solid #ffc34a; 
+                    width: 90%;
+                   height: 60%;
                   }
               }
 
@@ -478,7 +478,8 @@ body {
 
               .texto {
                 font-size: $fontsizenormalmobile;
-                font-family: $fontsizenormalmobile;
+                font-family: $fontparrafo;
+                width: 90%;
             }
 
             .palmares {
