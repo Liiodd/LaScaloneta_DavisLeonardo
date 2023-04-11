@@ -512,6 +512,7 @@ footer {
   background-image: url(../images/veryperi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: drop-shadow(5px 5px 15px #7FF56D);
 }
 footer .socialmedia P {
   font-family: "Anton", sans-serif;
