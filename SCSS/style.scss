@@ -28,7 +28,7 @@ header {
 /* KEYFRAMES LATIDOS LOGO SCALONETA */
         @keyframes latidos {
             from { transform: none; }
-            16% { transform: scale(1.15); }
+            12% { transform: scale(1.12); }
             to { transform: none; }
         }
 
@@ -42,7 +42,7 @@ header {
         .scaloneta {
             display: inline-block;
             text-shadow: 0 0 10px #222,1px 1px  0 #450505;
-            animation: latidos 1s infinite;
+            animation: latidos 1.2s infinite;
             transform-origin: center;
             filter: drop-shadow(10px 10px 7px black);
         }
@@ -692,7 +692,7 @@ footer {
             text-align: center;
             margin: 20px 10px;
             box-shadow: 0px 0px 32px -7px #00199f;
-            animation: latidosmin 1.5s infinite;
+            animation: latidosmin 2s infinite;
 
             h1 {
                 font-family: $fontparrafo;
@@ -743,6 +743,20 @@ footer {
                     color: #3b5998;
                 }
 
+            }
+             /* Instagram Button Styling */
+             .instagram {
+                font-size: 22px;
+                padding-top: 9px;
+                padding-left: 0px;
+                background-color: #C13584;
+                color: white;
+                border-color: #C13584;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #bb0000;
+                }
             }
             /* Twitter Button Styling */
             .twitter {
