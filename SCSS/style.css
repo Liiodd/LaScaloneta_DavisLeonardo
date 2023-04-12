@@ -28,8 +28,19 @@ header .container-fluid {
   from {
     transform: none;
   }
-  10% {
-    transform: scale(1.1);
+  16% {
+    transform: scale(1.15);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes latidosmin {
+  from {
+    transform: none;
+  }
+  5% {
+    transform: scale(1.05);
   }
   to {
     transform: none;
@@ -527,7 +538,7 @@ footer {
   filter: drop-shadow(5px 5px 15px #7FF56D);
 }
 footer .socialmedia {
-  padding-top: 30px;
+  padding-top: 10px;
   min-height: 100%;
   text-align: center;
   filter: drop-shadow(10px 10px 7px black);
@@ -541,15 +552,15 @@ footer .socialmedia .social-buttons {
   text-align: center;
   margin: 20px 10px;
   box-shadow: 0px 0px 32px -7px #00199f;
+  animation: latidosmin 1.5s infinite;
   /* Facebook Button Styling */
   /* Twitter Button Styling */
   /* Youtube Button Styling */
 }
 footer .socialmedia .social-buttons h1 {
-  font-family: "Anton", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 1.3em;
   color: black;
-  animation: latidos 1.5s infinite;
 }
 footer .socialmedia .social-buttons .social-margin {
   margin-right: 15px;
