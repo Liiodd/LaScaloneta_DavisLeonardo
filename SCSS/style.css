@@ -523,6 +523,26 @@ body .palmares .copa p {
   font-family: "Anton", sans-serif;
   color: #ffc34a;
 }
+body .los26elegidos {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+body .textojugadores {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 2px;
+  margin: 0 10px 0 10px;
+}
+body .textojugadoresdescripcion {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 3px;
+  margin: 0 30px 0 30px;
+}
 
 /* FIN BODY */
 /* COMIENZO FOOTER */
@@ -1010,6 +1030,27 @@ footer .socialmedia .social-buttons .youtube:hover {
     color: #ffc34a;
     width: 100%;
     height: 80%;
+  }
+  body .los26elegidos {
+    font-family: "Anton", sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 5px 0 5px;
+  }
+  body .textojugadores {
+    font-family: "Dosis", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 2px;
+    margin: 0 10px 0 10px;
+  }
+  body .textojugadoresdescripcion {
+    font-family: "Dosis", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 20px 0 20px;
   }
 }
 
